@@ -154,9 +154,12 @@ version tag (e.g. `v1.2.0`) is pushed.
 
 ## Citing ChemChron
 
-A paper describing ChemChron is in preparation. Until then, please cite the
-software itself: use "Cite this repository" on GitHub (from
-[`CITATION.cff`](CITATION.cff)).
+If you use ChemChron in your work, please cite it as:
+
+Sorger, D. (2026). ChemChron (Version v1.2.0) [Computer software]. Zenodo.
+https://doi.org/10.5281/zenodo.24317051
+
+A paper describing ChemChron is in preparation.
 
 ## Problems and suggestions
 
