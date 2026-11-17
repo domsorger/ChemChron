@@ -1,0 +1,192 @@
+# Builds ChemChron for every system, by hand (Actions > Build ChemChron > Run
+# workflow) or when a version tag is pushed (e.g. v1.2.0).
+#
+# On a tag push each build job uploads its files directly to the GitHub release
+# of that tag in this repository (default GITHUB_TOKEN); manual runs keep their
+# files as run artifacts for 3 days.
+#
+#   macOS    ChemChron-<version>-macOS.dmg            one app for Intel and Apple silicon
+#   Windows  ChemChron-<version>-Windows-Setup.exe    installer (Start menu, desktop icon)
+#            ChemChron-<version>-Windows-x64.zip      the same, without installing
+#   Linux    ChemChron-<version>-Linux-x86_64.AppImage / -aarch64.AppImage   one file, runs without installing
+#            ChemChron-<version>-Linux-<arch>.tar.gz  program, icon and menu entry (install.sh)
+
+name: Build ChemChron
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: System libraries
+        run: sudo apt-get update && sudo apt-get install -y build-essential pkg-config libxkbcommon-dev libwayland-dev libgl1-mesa-dev
+      - name: Tests (all four parts of the program)
+        run: |
+          printf '\n[workspace]\nmembers = [".", "core", "laser", "laser/core"]\n' >> Cargo.toml
+          cargo test --workspace --release
+
+  macos:
+    needs: test
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: aarch64-apple-darwin, x86_64-apple-darwin
+      - name: Build for Apple silicon and Intel
+        run: |
+          cargo build --release --target aarch64-apple-darwin
+          cargo build --release --target x86_64-apple-darwin
+      - name: ChemChron.app (universal) and .dmg
+        run: |
+          VERSION=$(grep -m1 '^version' Cargo.toml | cut -d'"' -f2)
+          APP=dist/ChemChron.app
+          mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources"
+          lipo -create target/aarch64-apple-darwin/release/chemchron target/x86_64-apple-darwin/release/chemchron -output "$APP/Contents/MacOS/ChemChron"
+          if [ -f assets/icon.png ]; then SRC=assets/icon.png; else SRC=icon_1024.png; "$APP/Contents/MacOS/ChemChron" --write-icon "$SRC"; fi
+          ICONSET=ChemChron.iconset; mkdir -p $ICONSET
+          for s in 16 32 128 256 512; do
+            sips -z $s $s "$SRC" --out "$ICONSET/icon_${s}x${s}.png" >/dev/null
+            d=$((s * 2)); sips -z $d $d "$SRC" --out "$ICONSET/icon_${s}x${s}@2x.png" >/dev/null
+          done
+          iconutil -c icns $ICONSET -o "$APP/Contents/Resources/ChemChron.icns"
+          cat > "$APP/Contents/Info.plist" <<PLIST
+          <?xml version="1.0" encoding="UTF-8"?>
+          <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+          <plist version="1.0"><dict>
+            <key>CFBundleName</key><string>ChemChron</string>
+            <key>CFBundleDisplayName</key><string>ChemChron</string>
+            <key>CFBundleIdentifier</key><string>at.uni-graz.chemchron</string>
+            <key>CFBundleVersion</key><string>$VERSION</string>
+            <key>CFBundleShortVersionString</key><string>$VERSION</string>
+            <key>CFBundleExecutable</key><string>ChemChron</string>
+            <key>CFBundleIconFile</key><string>ChemChron</string>
+            <key>CFBundlePackageType</key><string>APPL</string>
+            <key>LSMinimumSystemVersion</key><string>11.0</string>
+            <key>NSHighResolutionCapable</key><true/>
+            <key>NSHumanReadableCopyright</key><string>Copyright 2026 Dominik Sorger, Department of Earth Sciences, University of Graz</string>
+          </dict></plist>
+          PLIST
+          # ad-hoc signature: needed to start on Apple silicon (not notarised: first start with right-click > Open)
+          codesign --force --deep -s - "$APP"
+          ln -s /Applications dist/Applications
+          hdiutil create -volname "ChemChron $VERSION" -srcfolder dist -ov -format UDZO "ChemChron-$VERSION-macOS.dmg"
+      - name: Add to the release of this tag
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v3
+        with:
+          files: |
+            ChemChron-*-macOS.dmg
+      - name: Keep as run artifacts (manual runs)
+        if: "!startsWith(github.ref, 'refs/tags/')"
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos
+          retention-days: 3
+          path: |
+            ChemChron-*-macOS.dmg
+
+  windows:
+    needs: test
+    runs-on: windows-2022
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Build
+        run: cargo build --release
+      - name: Icon, installer and zip
+        shell: pwsh
+        run: |
+          $version = (Select-String -Path Cargo.toml -Pattern '^version = "(.+)"' | Select-Object -First 1).Matches[0].Groups[1].Value
+          New-Item -ItemType Directory -Force -Path dist | Out-Null
+          Copy-Item target\release\chemchron.exe dist\ChemChron.exe
+          # ChemChron.exe is a windowed program: wait for it explicitly
+          Start-Process -FilePath dist\ChemChron.exe -ArgumentList '--write-icon', 'dist\ChemChron.ico' -Wait -NoNewWindow
+          # put the icon into ChemChron.exe itself (rcedit)
+          Invoke-WebRequest -Uri https://github.com/electron/rcedit/releases/download/v2.0.0/rcedit-x64.exe -OutFile rcedit.exe
+          .\rcedit.exe dist\ChemChron.exe --set-icon dist\ChemChron.ico --set-version-string ProductName ChemChron --set-version-string LegalCopyright "Copyright 2026 Dominik Sorger, University of Graz" --set-file-version $version --set-product-version $version
+          Compress-Archive -Path dist\* -DestinationPath "ChemChron-$version-Windows-x64.zip"
+          if (-not (Test-Path "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe")) { choco install innosetup -y --no-progress }
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" /DAppVersion=$version packaging\windows\chemchron.iss
+      - name: Add to the release of this tag
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v3
+        with:
+          files: |
+            ChemChron-*-Windows-x64.zip
+            ChemChron-*-Windows-Setup.exe
+      - name: Keep as run artifacts (manual runs)
+        if: "!startsWith(github.ref, 'refs/tags/')"
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows
+          retention-days: 3
+          path: |
+            ChemChron-*-Windows-x64.zip
+            ChemChron-*-Windows-Setup.exe
+
+  linux:
+    needs: test
+    strategy:
+      matrix:
+        include:
+          - runner: ubuntu-22.04
+            arch: x86_64
+          - runner: ubuntu-22.04-arm
+            arch: aarch64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: System libraries
+        run: sudo apt-get update && sudo apt-get install -y build-essential pkg-config libxkbcommon-dev libwayland-dev libgl1-mesa-dev file
+      - name: Build
+        run: cargo build --release
+      - name: AppImage and tar.gz
+        run: |
+          VERSION=$(grep -m1 '^version' Cargo.toml | cut -d'"' -f2)
+          ARCH=${{ matrix.arch }}
+          # AppImage: one file that runs on most Linux systems
+          APPDIR=ChemChron.AppDir
+          mkdir -p $APPDIR/usr/bin
+          cp target/release/chemchron $APPDIR/usr/bin/chemchron
+          if [ -f assets/icon.png ]; then cp assets/icon.png $APPDIR/chemchron.png; else target/release/chemchron --write-icon $APPDIR/chemchron.png; fi
+          cp packaging/linux/chemchron.desktop $APPDIR/chemchron.desktop
+          printf '#!/bin/sh\nexec "$(dirname "$(readlink -f "$0")")/usr/bin/chemchron" "$@"\n' > $APPDIR/AppRun
+          chmod +x $APPDIR/AppRun
+          curl -L -o appimagetool https://github.com/AppImage/appimagetool/releases/download/continuous/appimagetool-$ARCH.AppImage
+          chmod +x appimagetool
+          ARCH=$ARCH ./appimagetool --appimage-extract-and-run $APPDIR "ChemChron-$VERSION-Linux-$ARCH.AppImage"
+          # tar.gz: program, icon, menu entry and a small installer
+          D=ChemChron-$VERSION-Linux-$ARCH
+          mkdir -p $D
+          cp target/release/chemchron $APPDIR/chemchron.png packaging/linux/chemchron.desktop packaging/linux/install.sh $D/
+          tar czf $D.tar.gz $D
+      - name: Add to the release of this tag
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v3
+        with:
+          files: |
+            ChemChron-*.AppImage
+            ChemChron-*.tar.gz
+      - name: Keep as run artifacts (manual runs)
+        if: "!startsWith(github.ref, 'refs/tags/')"
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-${{ matrix.arch }}
+          retention-days: 3
+          path: |
+            ChemChron-*.AppImage
+            ChemChron-*.tar.gz

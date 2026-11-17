@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use ChemChron in your work, please cite it as below."
+title: "ChemChron"
+abstract: >-
+  ChemChron is a program for accessory-mineral geochronology. It reduces
+  LA-ICP-MS U–Th–Pb and trace-element data, calculates EPMA chemical
+  Th–U–Pb ages and mineral formulae, and combines both, analysis by
+  analysis, for statistics, figures and export.
+type: software
+authors:
+  - family-names: "Sorger"
+    given-names: "Dominik"
+    affiliation: "Department of Earth Sciences, University of Graz, Austria"
+version: "1.2.0"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/domsorger/ChemChron"
+keywords: [geochronology, monazite, xenotime, zircon, EPMA, chemical dating, CHIME, LA-ICP-MS, U–Th–Pb]

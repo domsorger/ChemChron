@@ -1,0 +1,37 @@
+[package]
+name = "chemchron"
+version = "1.2.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+authors = ["Dominik Sorger"]
+description = "ChemChron: LA-ICP-MS reduction, EPMA chemical dating and combined geochronology in one program"
+default-run = "chemchron"
+
+[dependencies]
+chemchron-core = { path = "core" }
+chemchron-laser = { path = "laser" }
+chemchron-laser-core = { path = "laser/core" }
+eframe = { version = "0.37", default-features = false, features = ["default_fonts", "glow", "wayland", "x11", "accesskit", "clipboard"] }
+egui = "0.37"
+egui_extras = { version = "0.37", default-features = false }
+rfd = "0.17"
+image = { version = "0.25", default-features = false, features = ["png", "tiff"] }
+epaint_default_fonts = "0.37"
+resvg = { version = "0.45", default-features = false, features = ["text", "system-fonts"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["preserve_order"] }
+rust_xlsxwriter = "0.102"
+zip = { version = "9", default-features = false, features = ["deflate"] }
+
+[dev-dependencies]
+egui_kittest = "0.37"
+
+[profile.dev]
+opt-level = 1
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+opt-level = 3
+lto = "thin"

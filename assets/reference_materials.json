@@ -1,0 +1,4628 @@
+{
+  "Monazite": {
+    "MB508": {
+      "name": "Moacyr (Bananeira type), Itambé pegmatite district, Brazil",
+      "age": 508.0,
+      "age_2s": 15.0,
+      "source": "Gonçalves et al. (2016) Chem. Geol.",
+      "aliases": [
+        "MBA"
+      ],
+      "laser": {
+        "name": "MBA",
+        "aliases": [],
+        "matrix": "Monazite",
+        "source": "Gonçalves et al. (2016) Chem. Geol.: Bananeira ID-TIMS weighted means 0.6487 ± 0.0021 (207/235), 0.08294 ± 0.00021 (206/238), 0.056723 ± 0.000051 (207/206); best age 507.7 ± 1.3 Ma; reversely discordant. 208Pb/232Th is not given there: check it before use.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.08294,
+            "unc2s": 0.00021
+          },
+          "207Pb/206Pb": {
+            "value": 0.056723,
+            "unc2s": 5.1e-05
+          },
+          "207Pb/235U": {
+            "value": 0.6487,
+            "unc2s": 0.0021
+          },
+          "208Pb/232Th": {
+            "value": 0.02464,
+            "unc2s": 0.00084
+          }
+        }
+      }
+    },
+    "MI506": {
+      "name": "Moacyr (Itambé type), Itambé pegmatite district, Brazil",
+      "age": 506.0,
+      "age_2s": 15.0,
+      "source": "Gonçalves et al. (2016) Chem. Geol.",
+      "aliases": [
+        "MDI"
+      ],
+      "laser": {
+        "name": "MI506",
+        "aliases": [
+          "MDI"
+        ],
+        "matrix": "Monazite",
+        "source": "Gonçalves et al. (2016) Chem. Geol.: Itambé ID-TIMS weighted means; best age 506.44 ± 0.73 Ma.",
+        "confirmed": false,
+        "values": {
+          "U": {
+            "value": 2607,
+            "unc2s": 0
+          },
+          "Th": {
+            "value": 88564,
+            "unc2s": 0
+          },
+          "206Pb/238U": {
+            "value": 0.082628,
+            "unc2s": 8.7e-05
+          },
+          "207Pb/235U": {
+            "value": 0.6467,
+            "unc2s": 0.0012
+          },
+          "207Pb/206Pb": {
+            "value": 0.05675,
+            "unc2s": 2.4e-05
+          }
+        }
+      }
+    },
+    "WC425": {
+      "name": "Grain 44069, Wilmington Complex",
+      "age": 425.0,
+      "age_2s": 3.0,
+      "source": "Aleinikoff et al. (2006) GSA Bull. 118",
+      "aliases": [
+        "M44",
+        "44069"
+      ],
+      "laser": {
+        "name": "44069",
+        "aliases": [
+          "M44069",
+          "Mnz44069",
+          "M44"
+        ],
+        "matrix": "Monazite",
+        "source": "Aleinikoff et al. (2006) GSA Bull. 118, Table 3: ID-TIMS weighted means 424.86 ± 0.36 (206/238), 424.89 ± 0.35 (207/235), 425.3 ± 1.1 Ma (207/206); 2σ of the ratios from the age 2σ. 208Pb/232Th calculated as concordant at 425 Ma.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.06811,
+            "unc2s": 6e-05
+          },
+          "207Pb/206Pb": {
+            "value": 0.0553,
+            "unc2s": 2.7e-05
+          },
+          "207Pb/235U": {
+            "value": 0.51948,
+            "unc2s": 0.00052
+          },
+          "208Pb/232Th": {
+            "value": 0.021249497348966508,
+            "unc2s": 0.0001010576375068406
+          },
+          "U": {
+            "value": 2531,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 13456,
+            "unc2s": 0
+          }
+        }
+      }
+    },
+    "Trebilcock": {
+      "name": "Trebilcock",
+      "age": 271.5,
+      "age_2s": 2.0,
+      "source": "Tomascak et al. (1996) J. Geol. 104 (mean 207Pb/235U ID-TIMS age)",
+      "laser": {
+        "name": "Trebilcock",
+        "aliases": [
+          "Treb"
+        ],
+        "matrix": "Monazite",
+        "source": "Tomascak et al. (1996) J. Geol. 104, Table 2: mean of the ID-TIMS fractions TU-1A/TU-1B (207Pb/235U age 271.5 ± 2 Ma); reversely discordant. 208Pb/232Th calculated as concordant at 272 Ma.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.04439,
+            "unc2s": 0.0004
+          },
+          "207Pb/206Pb": {
+            "value": 0.05006,
+            "unc2s": 0.0004
+          },
+          "207Pb/235U": {
+            "value": 0.3064,
+            "unc2s": 0.0036
+          },
+          "208Pb/232Th": {
+            "value": 0.013548155660801503,
+            "unc2s": 0.00010029555204324123
+          }
+        }
+      }
+    },
+    "554": {
+      "name": "Monazite 554, Manaslu granite, Himalaya",
+      "age": 45.0,
+      "age_2s": 1.0,
+      "source": "Harrison et al. (1999) J. Petrol. 40",
+      "aliases": [
+        "M55"
+      ]
+    },
+    "TS-Mnz": {
+      "name": "TS-Mnz monazite megacryst",
+      "age": 910.42,
+      "age_2s": 0.34,
+      "source": "Budzyń et al. (2021) Chem. Geol. 572, recommended 207Pb/235U ID-TIMS age",
+      "aliases": [
+        "TS",
+        "TSMnz"
+      ],
+      "laser": {
+        "name": "TS-Mnz",
+        "aliases": [],
+        "matrix": "Monazite",
+        "source": "Budzyń et al. (2021) Chem. Geol. 572: recommended 207Pb/235U 910.42 ± 0.34 Ma (2σ) and 208Pb/232Th 910.7 ± 1.3 Ma (95 % c.l.); slightly reversely discordant, so no 206Pb/238U value. Ratios calculated from these ages.",
+        "confirmed": false,
+        "values": {
+          "207Pb/235U": {
+            "value": 1.4513,
+            "unc2s": 0.00082
+          },
+          "208Pb/232Th": {
+            "value": 0.046087,
+            "unc2s": 6.7e-05
+          }
+        }
+      }
+    },
+    "Diamantina": {
+      "name": "Diamantina monazite (low Th)",
+      "age": 495.26,
+      "age_2s": 0.54,
+      "source": "Gonçalves et al. (2018) Geostand. Geoanal. Res. 42, weighted mean 206Pb/238U ID-TIMS date",
+      "aliases": [
+        "Dia",
+        "Dia-1"
+      ],
+      "laser": {
+        "name": "Diamantina",
+        "aliases": [],
+        "matrix": "Monazite",
+        "source": "Gonçalves et al. (2018) Geostand. Geoanal. Res. 42: ID-TIMS weighted means 207Pb/235U 0.62913 ± 0.00079, 206Pb/238U 0.079861 ± 0.000088, 207Pb/206Pb 0.057130 ± 0.000031; 206Pb/238U date 495.26 ± 0.54 Ma (95 % c.l.). Low Th: of limited use for EPMA dating.",
+        "confirmed": false,
+        "values": {
+          "207Pb/235U": {
+            "value": 0.62913,
+            "unc2s": 0.00079
+          },
+          "206Pb/238U": {
+            "value": 0.079861,
+            "unc2s": 8.8e-05
+          },
+          "207Pb/206Pb": {
+            "value": 0.05713,
+            "unc2s": 3.1e-05
+          }
+        }
+      }
+    }
+  },
+  "Xenotime": {},
+  "Thorite": {},
+  "Uraninite": {},
+  "Thorianite": {},
+  "Zircon": {
+    "91500": {
+      "name": "91500",
+      "age": 1065.4,
+      "age_2s": 0.3,
+      "source": "Wiedenbeck et al. (1995) Geostand. Newsl. 19, 207Pb/206Pb ID-TIMS age",
+      "laser": {
+        "name": "91500",
+        "aliases": [
+          "Z91500",
+          "Zr91500"
+        ],
+        "matrix": "Zircon",
+        "source": "Wiedenbeck et al. (1995) Geostand. Newsl. 19: 206Pb/238U 1062.4 ± 0.4 Ma, 207Pb/206Pb 0.07488 ± 0.00001 (1065.4 ± 0.3 Ma), slightly discordant. 207Pb/235U and 208Pb/232Th without verified uncertainty. Hf: Woodhead & Hergt (2005) Geostand. Geoanal. Res. 29.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.17917,
+            "unc2s": 7.3e-05
+          },
+          "207Pb/206Pb": {
+            "value": 0.07488,
+            "unc2s": 1e-05
+          },
+          "207Pb/235U": {
+            "value": 1.849825,
+            "unc2s": 0
+          },
+          "Ba": {
+            "value": 0.06,
+            "unc2s": 0
+          },
+          "Ce": {
+            "value": 2.6,
+            "unc2s": 0
+          },
+          "Cr": {
+            "value": 1.5,
+            "unc2s": 0
+          },
+          "Dy": {
+            "value": 12,
+            "unc2s": 0
+          },
+          "Er": {
+            "value": 25,
+            "unc2s": 0
+          },
+          "Eu": {
+            "value": 0.24,
+            "unc2s": 0
+          },
+          "Gd": {
+            "value": 2.2,
+            "unc2s": 0
+          },
+          "Hf": {
+            "value": 5900,
+            "unc2s": 0
+          },
+          "Ho": {
+            "value": 4.8,
+            "unc2s": 0
+          },
+          "La": {
+            "value": 0.006,
+            "unc2s": 0
+          },
+          "Lu": {
+            "value": 13,
+            "unc2s": 0
+          },
+          "Nb": {
+            "value": 0.79,
+            "unc2s": 0
+          },
+          "Nd": {
+            "value": 0.24,
+            "unc2s": 0
+          },
+          "Ni": {
+            "value": 0.07,
+            "unc2s": 0
+          },
+          "P": {
+            "value": 24,
+            "unc2s": 0
+          },
+          "Pb": {
+            "value": 15,
+            "unc2s": 0
+          },
+          "Pr": {
+            "value": 0.024,
+            "unc2s": 0
+          },
+          "Si": {
+            "value": 152840,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 1,
+            "unc2s": 0
+          },
+          "Sr": {
+            "value": 0.052,
+            "unc2s": 0
+          },
+          "Ta": {
+            "value": 1,
+            "unc2s": 0
+          },
+          "Tb": {
+            "value": 0.86,
+            "unc2s": 0
+          },
+          "Th": {
+            "value": 30,
+            "unc2s": 0
+          },
+          "Tl": {
+            "value": 6,
+            "unc2s": 0
+          },
+          "Tm": {
+            "value": 6.9,
+            "unc2s": 0
+          },
+          "U": {
+            "value": 80,
+            "unc2s": 0
+          },
+          "Y": {
+            "value": 140,
+            "unc2s": 0
+          },
+          "Yb": {
+            "value": 74,
+            "unc2s": 0
+          },
+          "176Hf/177Hf": {
+            "value": 0.282306,
+            "unc2s": 0
+          },
+          "208Pb/232Th": {
+            "value": 0.05374,
+            "unc2s": 0
+          },
+          "207Pb/206Pb(i)": {
+            "value": 0.9142,
+            "unc2s": 0
+          },
+          "206Pb/208Pb": {
+            "value": 9.354537,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 10000,
+            "unc2s": 0
+          },
+          "207Pb/204Pb": {
+            "value": 749,
+            "unc2s": 0
+          },
+          "208Pb/204Pb": {
+            "value": 1069,
+            "unc2s": 0
+          }
+        }
+      },
+      "aliases": []
+    },
+    "GJ-1": {
+      "name": "GJ-1",
+      "age": 608.5,
+      "age_2s": 0.4,
+      "source": "Jackson et al. (2004) Chem. Geol. 211, 207Pb/206Pb ID-TIMS age",
+      "laser": {
+        "name": "GJ-1",
+        "aliases": [],
+        "matrix": "Zircon",
+        "source": "Jackson et al. (2004) Chem. Geol. 211: ID-TIMS 206Pb/238U 600.7 ± 1.1 Ma, 207Pb/235U 602.0 ± 1.0 Ma, 207Pb/206Pb 608.5 ± 0.4 Ma; ratios calculated from these ages (207Pb/206Pb with 238U/235U = 137.88). 208Pb/232Th: model value of Jackson et al. (2004), not verified. GJ-1 batches differ: check your batch.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.097663,
+            "unc2s": 0.00019
+          },
+          "207Pb/206Pb": {
+            "value": 0.060137,
+            "unc2s": 1.1e-05
+          },
+          "207Pb/235U": {
+            "value": 0.80919,
+            "unc2s": 0.0018
+          },
+          "Ce": {
+            "value": 16,
+            "unc2s": 0
+          },
+          "Dy": {
+            "value": 19.9,
+            "unc2s": 0
+          },
+          "Er": {
+            "value": 29.3,
+            "unc2s": 0
+          },
+          "Eu": {
+            "value": 1,
+            "unc2s": 0
+          },
+          "Gd": {
+            "value": 6.9,
+            "unc2s": 0
+          },
+          "Hf": {
+            "value": 6558,
+            "unc2s": 0
+          },
+          "Ho": {
+            "value": 6.81,
+            "unc2s": 0
+          },
+          "La": {
+            "value": 0.005,
+            "unc2s": 0
+          },
+          "Lu": {
+            "value": 13.1,
+            "unc2s": 0
+          },
+          "Nb": {
+            "value": 1.51,
+            "unc2s": 0
+          },
+          "Nd": {
+            "value": 0.59,
+            "unc2s": 0
+          },
+          "Pb": {
+            "value": 25.7,
+            "unc2s": 0
+          },
+          "Pr": {
+            "value": 0.03,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 1.42,
+            "unc2s": 0
+          },
+          "Tb": {
+            "value": 1.95,
+            "unc2s": 0
+          },
+          "Th": {
+            "value": 9.51,
+            "unc2s": 0
+          },
+          "Ti": {
+            "value": 3.55,
+            "unc2s": 0
+          },
+          "Tm": {
+            "value": 6.25,
+            "unc2s": 0
+          },
+          "U": {
+            "value": 287,
+            "unc2s": 0
+          },
+          "Y": {
+            "value": 246,
+            "unc2s": 0
+          },
+          "Yb": {
+            "value": 62,
+            "unc2s": 0
+          },
+          "Zr": {
+            "value": 431400,
+            "unc2s": 0
+          },
+          "176Hf/177Hf": {
+            "value": 0.282,
+            "unc2s": 0
+          },
+          "208Pb/232Th": {
+            "value": 0.03074,
+            "unc2s": 0
+          },
+          "206Pb/208Pb": {
+            "value": 88.08,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 71975,
+            "unc2s": 0
+          },
+          "207Pb/204Pb": {
+            "value": 7430.5,
+            "unc2s": 0
+          }
+        }
+      },
+      "aliases": []
+    },
+    "Plesovice": {
+      "name": "Plesovice",
+      "age": 337.13,
+      "age_2s": 0.37,
+      "source": "Sláma et al. (2008) Chem. Geol. 249",
+      "laser": {
+        "name": "Plesovice",
+        "aliases": [
+          "Ple",
+          "Pl"
+        ],
+        "matrix": "Zircon",
+        "source": "Sláma et al. (2008) Chem. Geol. 249: concordant, weighted mean 206Pb/238U ID-TIMS age 337.13 ± 0.37 Ma; 206Pb/238U and 207Pb/235U calculated as concordant at that age.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.053689,
+            "unc2s": 6e-05
+          },
+          "207Pb/206Pb": {
+            "value": 0.05325,
+            "unc2s": 0
+          },
+          "207Pb/235U": {
+            "value": 0.39378,
+            "unc2s": 0.00051
+          },
+          "206Pb/208Pb": {
+            "value": 31.2138,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 51930,
+            "unc2s": 0
+          },
+          "Pb": {
+            "value": 39,
+            "unc2s": 0
+          },
+          "Th": {
+            "value": 78,
+            "unc2s": 0
+          },
+          "U": {
+            "value": 755,
+            "unc2s": 0
+          },
+          "176Hf/177Hf": {
+            "value": 0.282482,
+            "unc2s": 0
+          }
+        }
+      },
+      "aliases": []
+    },
+    "FC1": {
+      "name": "FC1 zircon, Duluth Complex",
+      "age": 1099.0,
+      "age_2s": 0.6,
+      "source": "Paces & Miller (1993) J. Geophys. Res. 98",
+      "aliases": [],
+      "laser": {
+        "name": "FC1",
+        "aliases": [],
+        "matrix": "Zircon",
+        "source": "Paces & Miller (1993) J. Geophys. Res. 98: 1099.0 ± 0.6 Ma (207Pb/206Pb); ratio calculated from that age with 238U/235U = 137.88.",
+        "confirmed": false,
+        "values": {
+          "207Pb/206Pb": {
+            "value": 0.076149,
+            "unc2s": 2.3e-05
+          }
+        }
+      }
+    },
+    "MudTank": {
+      "name": "Mud Tank zircon",
+      "age": 732.0,
+      "age_2s": 5.0,
+      "source": "Black & Gulson (1978) BMR J. Aust. Geol. Geophys. 3",
+      "aliases": [
+        "MUD"
+      ]
+    },
+    "Maniitsoq": {
+      "name": "Maniitsoq zircon, West Greenland",
+      "age": 3008.7,
+      "age_2s": 0.72,
+      "source": "Marsh et al. (2019) Goldschmidt Abstracts: 207Pb/206Pb TIMS age 3008.70 ± 0.72 Ma",
+      "aliases": [],
+      "laser": {
+        "name": "Maniitsoq",
+        "aliases": [],
+        "matrix": "Zircon",
+        "source": "Marsh et al. (2019) Goldschmidt Abstracts: 207Pb/206Pb TIMS age 3008.70 ± 0.72 Ma (207Pb/206Pb calculated from it); U 141 ± 39, Th 154 ± 77 ppm. 206Pb/238U and 207Pb/235U not verified.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.59095,
+            "unc2s": 0
+          },
+          "207Pb/235U": {
+            "value": 18.20064,
+            "unc2s": 0.40528
+          },
+          "207Pb/206Pb": {
+            "value": 0.22397,
+            "unc2s": 0.0001
+          },
+          "176Hf/177Hf": {
+            "value": 0.280864,
+            "unc2s": 2.1e-05
+          },
+          "U": {
+            "value": 141.0,
+            "unc2s": 39.0
+          },
+          "Th": {
+            "value": 154.0,
+            "unc2s": 77.0
+          }
+        }
+      }
+    },
+    "OG1": {
+      "name": "OG1 zircon, Owens Gully diorite, Pilbara",
+      "age": 3465.4,
+      "age_2s": 0.6,
+      "source": "Stern et al. (2009) Geostand. Geoanal. Res. 33",
+      "aliases": [],
+      "laser": {
+        "name": "OG1",
+        "aliases": [],
+        "matrix": "Zircon",
+        "source": "Stern et al. (2009) Geostand. Geoanal. Res. 33: 207Pb/206Pb 0.29907 ± 0.00011 (3465.4 ± 0.6 Ma); 206Pb/238U age 3440.7 ± 3.2 Ma. 206Pb/238U 2σ from the age 2σ.",
+        "confirmed": false,
+        "values": {
+          "Pb": {
+            "value": 424,
+            "unc2s": 0
+          },
+          "Th": {
+            "value": 120,
+            "unc2s": 0
+          },
+          "U": {
+            "value": 150,
+            "unc2s": 0
+          },
+          "176Hf/177Hf": {
+            "value": 0.280633,
+            "unc2s": 3.4e-05
+          },
+          "178Hf/177Hf": {
+            "value": 1.467173,
+            "unc2s": 1.3e-05
+          },
+          "206Pb/238U": {
+            "value": 0.705,
+            "unc2s": 0.00085
+          },
+          "207Pb/235U": {
+            "value": 29.058,
+            "unc2s": 0.0
+          },
+          "207Pb/206Pb": {
+            "value": 0.29907,
+            "unc2s": 0.00011
+          },
+          "206Pb/204Pb": {
+            "value": 23712,
+            "unc2s": 0
+          }
+        }
+      }
+    },
+    "Temora2": {
+      "name": "Temora 2 zircon, Middledale gabbroic diorite",
+      "age": 416.78,
+      "age_2s": 0.33,
+      "source": "Black et al. (2004) Chem. Geol. 205",
+      "aliases": [],
+      "laser": {
+        "name": "Temora2",
+        "aliases": [],
+        "matrix": "Zircon",
+        "source": "Black et al. (2004) Chem. Geol. 205: 206Pb/238U ID-TIMS age 416.78 ± 0.33 Ma; ratios calculated as concordant at that age (207Pb/206Pb with 238U/235U = 137.88).",
+        "confirmed": false,
+        "values": {
+          "176Hf177Hf": {
+            "value": 0.282686,
+            "unc2s": 0
+          },
+          "206Pb/238U": {
+            "value": 0.066789,
+            "unc2s": 5.5e-05
+          },
+          "207Pb/235U": {
+            "value": 0.50752,
+            "unc2s": 0.00049
+          },
+          "207Pb/206Pb": {
+            "value": 0.055112,
+            "unc2s": 8.1e-06
+          }
+        }
+      }
+    }
+  },
+  "Glass": {
+    "NIST610": {
+      "name": "NIST610",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "laser": {
+        "name": "NIST610",
+        "aliases": [
+          "SRM610",
+          "SRM 610",
+          "610"
+        ],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values (Jochum et al. 2011, Geostand. Geoanal. Res. 35), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Ba": {
+            "value": 452.0,
+            "unc2s": 9.0
+          },
+          "Ca": {
+            "value": 82144,
+            "unc2s": 0
+          },
+          "Ce": {
+            "value": 453.0,
+            "unc2s": 8.0
+          },
+          "Dy": {
+            "value": 437.0,
+            "unc2s": 11.0
+          },
+          "Er": {
+            "value": 455.0,
+            "unc2s": 14.0
+          },
+          "Eu": {
+            "value": 447.0,
+            "unc2s": 12.0
+          },
+          "Gd": {
+            "value": 449.0,
+            "unc2s": 12.0
+          },
+          "Hf": {
+            "value": 435.0,
+            "unc2s": 12.0
+          },
+          "Ho": {
+            "value": 449.0,
+            "unc2s": 12.0
+          },
+          "La": {
+            "value": 440.0,
+            "unc2s": 10.0
+          },
+          "Lu": {
+            "value": 439.0,
+            "unc2s": 8.0
+          },
+          "Nb": {
+            "value": 465.0,
+            "unc2s": 34.0
+          },
+          "Nd": {
+            "value": 430.0,
+            "unc2s": 8.0
+          },
+          "P": {
+            "value": 413.0,
+            "unc2s": 46.0
+          },
+          "Pb": {
+            "value": 426.0,
+            "unc2s": 1.0
+          },
+          "Pr": {
+            "value": 448.0,
+            "unc2s": 7.0
+          },
+          "Si": {
+            "value": 327180,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 453.0,
+            "unc2s": 11.0
+          },
+          "Sr": {
+            "value": 515.5,
+            "unc2s": 1.0
+          },
+          "Ta": {
+            "value": 446.0,
+            "unc2s": 33.0
+          },
+          "Tb": {
+            "value": 437.0,
+            "unc2s": 9.0
+          },
+          "Th": {
+            "value": 457.2,
+            "unc2s": 1.0
+          },
+          "Ti": {
+            "value": 452.0,
+            "unc2s": 10.0
+          },
+          "Tm": {
+            "value": 435.0,
+            "unc2s": 10.0
+          },
+          "U": {
+            "value": 461.5,
+            "unc2s": 1.0
+          },
+          "Y": {
+            "value": 462.0,
+            "unc2s": 11.0
+          },
+          "Yb": {
+            "value": 450.0,
+            "unc2s": 9.0
+          },
+          "Zr": {
+            "value": 448.0,
+            "unc2s": 9.0
+          },
+          "Ag": {
+            "value": 251.0,
+            "unc2s": 9.0
+          },
+          "Al": {
+            "value": 10797,
+            "unc2s": 0
+          },
+          "As": {
+            "value": 325.0,
+            "unc2s": 18.0
+          },
+          "Au": {
+            "value": 23.6,
+            "unc2s": 1.7
+          },
+          "B": {
+            "value": 350.0,
+            "unc2s": 56.0
+          },
+          "Be": {
+            "value": 476.0,
+            "unc2s": 31.0
+          },
+          "Bi": {
+            "value": 384.0,
+            "unc2s": 26.0
+          },
+          "Cd": {
+            "value": 270.0,
+            "unc2s": 16.0
+          },
+          "Cl": {
+            "value": 274.0,
+            "unc2s": 67.0
+          },
+          "Co": {
+            "value": 410.0,
+            "unc2s": 10.0
+          },
+          "Cr": {
+            "value": 408.0,
+            "unc2s": 10.0
+          },
+          "Cs": {
+            "value": 366.0,
+            "unc2s": 9.0
+          },
+          "Cu": {
+            "value": 441.0,
+            "unc2s": 15.0
+          },
+          "F": {
+            "value": 304.0,
+            "unc2s": 0.0
+          },
+          "Fe": {
+            "value": 458.0,
+            "unc2s": 9.0
+          },
+          "Ga": {
+            "value": 433.0,
+            "unc2s": 13.0
+          },
+          "Ge": {
+            "value": 447.0,
+            "unc2s": 78.0
+          },
+          "In": {
+            "value": 434.0,
+            "unc2s": 19.0
+          },
+          "K": {
+            "value": 464.0,
+            "unc2s": 21.0
+          },
+          "Li": {
+            "value": 468.0,
+            "unc2s": 24.0
+          },
+          "Mg": {
+            "value": 432.0,
+            "unc2s": 29.0
+          },
+          "Mn": {
+            "value": 444.0,
+            "unc2s": 13.0
+          },
+          "Mo": {
+            "value": 417.0,
+            "unc2s": 21.0
+          },
+          "Na": {
+            "value": 99415,
+            "unc2s": 0
+          },
+          "Ni": {
+            "value": 458.7,
+            "unc2s": 4.0
+          },
+          "Pd": {
+            "value": 1.21,
+            "unc2s": 0.44
+          },
+          "Pt": {
+            "value": 3.12,
+            "unc2s": 0.08
+          },
+          "Rb": {
+            "value": 425.7,
+            "unc2s": 1.0
+          },
+          "Re": {
+            "value": 49.9,
+            "unc2s": 3.7
+          },
+          "Rh": {
+            "value": 1.29,
+            "unc2s": 0.07
+          },
+          "S": {
+            "value": 575.0,
+            "unc2s": 32.0
+          },
+          "Sb": {
+            "value": 396.0,
+            "unc2s": 19.0
+          },
+          "Sc": {
+            "value": 455.0,
+            "unc2s": 10.0
+          },
+          "Se": {
+            "value": 138.0,
+            "unc2s": 42.0
+          },
+          "Sn": {
+            "value": 430.0,
+            "unc2s": 29.0
+          },
+          "Te": {
+            "value": 302.0,
+            "unc2s": 0.0
+          },
+          "Tl": {
+            "value": 59.6,
+            "unc2s": 2.8
+          },
+          "V": {
+            "value": 450.0,
+            "unc2s": 9.0
+          },
+          "W": {
+            "value": 444.0,
+            "unc2s": 29.0
+          },
+          "Zn": {
+            "value": 460.0,
+            "unc2s": 18.0
+          },
+          "11B/10B": {
+            "value": 4.049,
+            "unc2s": 0
+          },
+          "143Nd/144Nd": {
+            "value": 0.511927,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 17.045,
+            "unc2s": 0
+          },
+          "207Pb/204Pb": {
+            "value": 15.504,
+            "unc2s": 0
+          },
+          "207Pb/206Pb": {
+            "value": 0.9096,
+            "unc2s": 0
+          },
+          "208Pb/204Pb": {
+            "value": 36.964,
+            "unc2s": 0
+          },
+          "208Pb/206Pb": {
+            "value": 2.168,
+            "unc2s": 0
+          },
+          "87Sr/86Sr": {
+            "value": 0.709699,
+            "unc2s": 0
+          },
+          "d7Li": {
+            "value": 32.5,
+            "unc2s": 0
+          }
+        }
+      },
+      "aliases": []
+    },
+    "NIST612": {
+      "name": "NIST612",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "laser": {
+        "name": "NIST612",
+        "aliases": [
+          "SRM612",
+          "SRM 612",
+          "612"
+        ],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values (Jochum et al. 2011, Geostand. Geoanal. Res. 35), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Ba": {
+            "value": 39.3,
+            "unc2s": 0.9
+          },
+          "Ca": {
+            "value": 85002,
+            "unc2s": 0
+          },
+          "Ce": {
+            "value": 38.4,
+            "unc2s": 0.7
+          },
+          "Dy": {
+            "value": 35.5,
+            "unc2s": 0.7
+          },
+          "Er": {
+            "value": 38.0,
+            "unc2s": 0.9
+          },
+          "Eu": {
+            "value": 35.6,
+            "unc2s": 0.8
+          },
+          "Gd": {
+            "value": 37.3,
+            "unc2s": 0.9
+          },
+          "Hf": {
+            "value": 36.7,
+            "unc2s": 1.2
+          },
+          "Ho": {
+            "value": 38.3,
+            "unc2s": 0.8
+          },
+          "La": {
+            "value": 36.0,
+            "unc2s": 0.7
+          },
+          "Lu": {
+            "value": 37.0,
+            "unc2s": 0.9
+          },
+          "Nb": {
+            "value": 38.9,
+            "unc2s": 2.1
+          },
+          "Nd": {
+            "value": 35.5,
+            "unc2s": 0.7
+          },
+          "P": {
+            "value": 46.6,
+            "unc2s": 6.9
+          },
+          "Pb": {
+            "value": 38.57,
+            "unc2s": 0.2
+          },
+          "Pr": {
+            "value": 37.9,
+            "unc2s": 1.0
+          },
+          "Si": {
+            "value": 336061,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 37.7,
+            "unc2s": 0.8
+          },
+          "Sr": {
+            "value": 78.4,
+            "unc2s": 0.2
+          },
+          "Ta": {
+            "value": 37.6,
+            "unc2s": 1.9
+          },
+          "Tb": {
+            "value": 37.6,
+            "unc2s": 1.1
+          },
+          "Th": {
+            "value": 37.79,
+            "unc2s": 0.08
+          },
+          "Ti": {
+            "value": 44.0,
+            "unc2s": 2.3
+          },
+          "Tm": {
+            "value": 36.8,
+            "unc2s": 0.6
+          },
+          "U": {
+            "value": 37.38,
+            "unc2s": 0.08
+          },
+          "Y": {
+            "value": 38.3,
+            "unc2s": 1.4
+          },
+          "Yb": {
+            "value": 39.2,
+            "unc2s": 0.9
+          },
+          "Zr": {
+            "value": 37.9,
+            "unc2s": 1.2
+          },
+          "Ag": {
+            "value": 22.0,
+            "unc2s": 0.3
+          },
+          "Al": {
+            "value": 11167,
+            "unc2s": 0
+          },
+          "As": {
+            "value": 35.7,
+            "unc2s": 5.5
+          },
+          "Au": {
+            "value": 4.77,
+            "unc2s": 0.31
+          },
+          "B": {
+            "value": 34.3,
+            "unc2s": 1.7
+          },
+          "Be": {
+            "value": 37.5,
+            "unc2s": 1.5
+          },
+          "Bi": {
+            "value": 30.2,
+            "unc2s": 2.3
+          },
+          "Cd": {
+            "value": 28.1,
+            "unc2s": 1.1
+          },
+          "Cl": {
+            "value": 142.0,
+            "unc2s": 58.0
+          },
+          "Co": {
+            "value": 35.5,
+            "unc2s": 1.0
+          },
+          "Cr": {
+            "value": 36.4,
+            "unc2s": 1.5
+          },
+          "Cs": {
+            "value": 42.7,
+            "unc2s": 1.8
+          },
+          "Cu": {
+            "value": 37.8,
+            "unc2s": 1.5
+          },
+          "F": {
+            "value": 80.0,
+            "unc2s": 89.0
+          },
+          "Fe": {
+            "value": 51.0,
+            "unc2s": 2.0
+          },
+          "Ga": {
+            "value": 36.9,
+            "unc2s": 1.5
+          },
+          "Ge": {
+            "value": 36.1,
+            "unc2s": 3.8
+          },
+          "In": {
+            "value": 38.9,
+            "unc2s": 2.1
+          },
+          "K": {
+            "value": 62.3,
+            "unc2s": 2.4
+          },
+          "Li": {
+            "value": 40.2,
+            "unc2s": 1.3
+          },
+          "Mg": {
+            "value": 68.0,
+            "unc2s": 5.1
+          },
+          "Mn": {
+            "value": 38.7,
+            "unc2s": 0.9
+          },
+          "Mo": {
+            "value": 37.4,
+            "unc2s": 1.5
+          },
+          "Na": {
+            "value": 103858,
+            "unc2s": 0
+          },
+          "Ni": {
+            "value": 38.8,
+            "unc2s": 0.2
+          },
+          "Pd": {
+            "value": 1.05,
+            "unc2s": 0.1
+          },
+          "Pt": {
+            "value": 2.51,
+            "unc2s": 0.1
+          },
+          "Rb": {
+            "value": 31.4,
+            "unc2s": 0.4
+          },
+          "Re": {
+            "value": 6.63,
+            "unc2s": 0.61
+          },
+          "Rh": {
+            "value": 0.91,
+            "unc2s": 0.02
+          },
+          "S": {
+            "value": 377.0,
+            "unc2s": 70.0
+          },
+          "Sb": {
+            "value": 34.7,
+            "unc2s": 1.8
+          },
+          "Sc": {
+            "value": 39.9,
+            "unc2s": 2.5
+          },
+          "Sn": {
+            "value": 38.6,
+            "unc2s": 1.3
+          },
+          "Tl": {
+            "value": 14.9,
+            "unc2s": 0.5
+          },
+          "V": {
+            "value": 38.8,
+            "unc2s": 1.2
+          },
+          "W": {
+            "value": 38.0,
+            "unc2s": 1.1
+          },
+          "Zn": {
+            "value": 39.1,
+            "unc2s": 1.7
+          },
+          "11B/10B": {
+            "value": 4.048,
+            "unc2s": 0
+          },
+          "143Nd/144Nd": {
+            "value": 0.51193,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 17.095,
+            "unc2s": 0
+          },
+          "207Pb/204Pb": {
+            "value": 15.511,
+            "unc2s": 0
+          },
+          "207Pb/206Pb": {
+            "value": 0.9073,
+            "unc2s": 0
+          },
+          "208Pb/204Pb": {
+            "value": 37.005,
+            "unc2s": 0
+          },
+          "208Pb/206Pb": {
+            "value": 2.1647,
+            "unc2s": 0
+          },
+          "87Sr/86Sr": {
+            "value": 0.709063,
+            "unc2s": 0
+          },
+          "d7Li": {
+            "value": 31.2,
+            "unc2s": 0
+          }
+        }
+      },
+      "aliases": []
+    },
+    "BCR-2G": {
+      "name": "USGS BCR-2G basalt glass",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "BCR-2G",
+        "aliases": [],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values (Jochum et al. 2005, Geostand. Geoanal. Res. 29), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Ag": {
+            "value": 0.5,
+            "unc2s": 0.4
+          },
+          "Al": {
+            "value": 70913,
+            "unc2s": 0
+          },
+          "Ba": {
+            "value": 683.0,
+            "unc2s": 7.0
+          },
+          "Be": {
+            "value": 2.3,
+            "unc2s": 0.4
+          },
+          "Bi": {
+            "value": 0.05,
+            "unc2s": 0.01
+          },
+          "Ca": {
+            "value": 50429,
+            "unc2s": 0
+          },
+          "Cd": {
+            "value": 0.2,
+            "unc2s": 0.0
+          },
+          "Ce": {
+            "value": 53.3,
+            "unc2s": 0.5
+          },
+          "Co": {
+            "value": 38.0,
+            "unc2s": 2.0
+          },
+          "Cr": {
+            "value": 17.0,
+            "unc2s": 2.0
+          },
+          "Cs": {
+            "value": 1.16,
+            "unc2s": 0.07
+          },
+          "Cu": {
+            "value": 21.0,
+            "unc2s": 5.0
+          },
+          "Dy": {
+            "value": 6.44,
+            "unc2s": 0.06
+          },
+          "Er": {
+            "value": 3.7,
+            "unc2s": 0.04
+          },
+          "Eu": {
+            "value": 1.97,
+            "unc2s": 0.02
+          },
+          "Fe": {
+            "value": 96385,
+            "unc2s": 0
+          },
+          "Ga": {
+            "value": 23.0,
+            "unc2s": 1.0
+          },
+          "Gd": {
+            "value": 6.71,
+            "unc2s": 0.07
+          },
+          "Ge": {
+            "value": 1.5,
+            "unc2s": 0.1
+          },
+          "Hf": {
+            "value": 4.84,
+            "unc2s": 0.28
+          },
+          "Ho": {
+            "value": 1.27,
+            "unc2s": 0.08
+          },
+          "In": {
+            "value": 0.11,
+            "unc2s": 0.02
+          },
+          "K": {
+            "value": 14900.0,
+            "unc2s": 150.0
+          },
+          "La": {
+            "value": 24.7,
+            "unc2s": 0.3
+          },
+          "Li": {
+            "value": 9.0,
+            "unc2s": 1.0
+          },
+          "Lu": {
+            "value": 0.503,
+            "unc2s": 0.005
+          },
+          "Mg": {
+            "value": 21467,
+            "unc2s": 0
+          },
+          "Mn": {
+            "value": 1550.0,
+            "unc2s": 70.0
+          },
+          "Mo": {
+            "value": 270.0,
+            "unc2s": 30.0
+          },
+          "Na": {
+            "value": 23962,
+            "unc2s": 0
+          },
+          "Nb": {
+            "value": 12.5,
+            "unc2s": 1.0
+          },
+          "Nd": {
+            "value": 28.9,
+            "unc2s": 0.3
+          },
+          "Ni": {
+            "value": 13.0,
+            "unc2s": 2.0
+          },
+          "P": {
+            "value": 1615,
+            "unc2s": 0
+          },
+          "Pb": {
+            "value": 11.0,
+            "unc2s": 1.0
+          },
+          "Pr": {
+            "value": 6.7,
+            "unc2s": 0.4
+          },
+          "Pt": {
+            "value": 0.78,
+            "unc2s": 0.6
+          },
+          "Rb": {
+            "value": 47.0,
+            "unc2s": 0.5
+          },
+          "Re": {
+            "value": 0.0062,
+            "unc2s": 0.0007
+          },
+          "Sb": {
+            "value": 0.35,
+            "unc2s": 0.08
+          },
+          "Sc": {
+            "value": 33.0,
+            "unc2s": 2.0
+          },
+          "Si": {
+            "value": 254270,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 6.59,
+            "unc2s": 0.07
+          },
+          "Sn": {
+            "value": 2.6,
+            "unc2s": 0.4
+          },
+          "Sr": {
+            "value": 342.0,
+            "unc2s": 4.0
+          },
+          "Ta": {
+            "value": 0.78,
+            "unc2s": 0.06
+          },
+          "Tb": {
+            "value": 1.02,
+            "unc2s": 0.08
+          },
+          "Th": {
+            "value": 5.9,
+            "unc2s": 0.3
+          },
+          "Ti": {
+            "value": 14100.0,
+            "unc2s": 1000.0
+          },
+          "Tl": {
+            "value": 0.3,
+            "unc2s": 0.1
+          },
+          "Tm": {
+            "value": 0.51,
+            "unc2s": 0.04
+          },
+          "U": {
+            "value": 1.69,
+            "unc2s": 0.12
+          },
+          "V": {
+            "value": 425.0,
+            "unc2s": 18.0
+          },
+          "W": {
+            "value": 0.5,
+            "unc2s": 0.07
+          },
+          "Y": {
+            "value": 35.0,
+            "unc2s": 3.0
+          },
+          "Yb": {
+            "value": 3.39,
+            "unc2s": 0.03
+          },
+          "Zn": {
+            "value": 125.0,
+            "unc2s": 5.0
+          },
+          "Zr": {
+            "value": 184.0,
+            "unc2s": 15.0
+          },
+          "206Pb/204Pb": {
+            "value": 18.765,
+            "unc2s": 0
+          },
+          "207Pb/204Pb": {
+            "value": 15.626,
+            "unc2s": 0
+          },
+          "207Pb/206Pb": {
+            "value": 0.833,
+            "unc2s": 0
+          },
+          "208Pb/204Pb": {
+            "value": 38.73,
+            "unc2s": 0
+          },
+          "208Pb/206Pb": {
+            "value": 2.066,
+            "unc2s": 0
+          },
+          "230Th/232Th": {
+            "value": 4.724e-06,
+            "unc2s": 0
+          },
+          "[230Th/232Th]": {
+            "value": 0.877,
+            "unc2s": 0
+          },
+          "234U/238U": {
+            "value": 5.493e-05,
+            "unc2s": 0
+          },
+          "[234U/238U]": {
+            "value": 1.001,
+            "unc2s": 0
+          },
+          "87Sr/86Sr": {
+            "value": 0.705003,
+            "unc2s": 0
+          },
+          "d7Li": {
+            "value": 4.5,
+            "unc2s": 0.6
+          }
+        }
+      }
+    },
+    "BHVO-2G": {
+      "name": "USGS BHVO-2G basalt glass",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "BHVO-2G",
+        "aliases": [],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values (Jochum et al. 2005, Geostand. Geoanal. Res. 29), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Al": {
+            "value": 71971,
+            "unc2s": 0
+          },
+          "Ba": {
+            "value": 131.0,
+            "unc2s": 2.0
+          },
+          "Be": {
+            "value": 1.3,
+            "unc2s": 0.2
+          },
+          "Bi": {
+            "value": 0.01,
+            "unc2s": 0.002
+          },
+          "Ca": {
+            "value": 81430,
+            "unc2s": 0
+          },
+          "Cd": {
+            "value": 0.1,
+            "unc2s": 0.02
+          },
+          "Ce": {
+            "value": 37.6,
+            "unc2s": 0.2
+          },
+          "Co": {
+            "value": 44.0,
+            "unc2s": 2.0
+          },
+          "Cr": {
+            "value": 293.0,
+            "unc2s": 12.0
+          },
+          "Cs": {
+            "value": 0.1,
+            "unc2s": 0.02
+          },
+          "Cu": {
+            "value": 127.0,
+            "unc2s": 11.0
+          },
+          "Dy": {
+            "value": 5.28,
+            "unc2s": 0.05
+          },
+          "Er": {
+            "value": 2.56,
+            "unc2s": 0.02
+          },
+          "Eu": {
+            "value": 2.07,
+            "unc2s": 0.01
+          },
+          "Fe": {
+            "value": 87835,
+            "unc2s": 0
+          },
+          "Ga": {
+            "value": 22.0,
+            "unc2s": 3.0
+          },
+          "Gd": {
+            "value": 6.16,
+            "unc2s": 0.05
+          },
+          "Ge": {
+            "value": 1.6,
+            "unc2s": 0.1
+          },
+          "Hf": {
+            "value": 4.32,
+            "unc2s": 0.18
+          },
+          "Ho": {
+            "value": 0.98,
+            "unc2s": 0.04
+          },
+          "In": {
+            "value": 0.1,
+            "unc2s": 0.02
+          },
+          "K": {
+            "value": 4270.0,
+            "unc2s": 50.0
+          },
+          "La": {
+            "value": 15.2,
+            "unc2s": 0.2
+          },
+          "Li": {
+            "value": 4.4,
+            "unc2s": 0.8
+          },
+          "Lu": {
+            "value": 0.279,
+            "unc2s": 0.003
+          },
+          "Mg": {
+            "value": 42994,
+            "unc2s": 0
+          },
+          "Mn": {
+            "value": 1317,
+            "unc2s": 0
+          },
+          "Mo": {
+            "value": 3.8,
+            "unc2s": 0.2
+          },
+          "Na": {
+            "value": 17806,
+            "unc2s": 0
+          },
+          "Nb": {
+            "value": 18.3,
+            "unc2s": 0.8
+          },
+          "Nd": {
+            "value": 24.5,
+            "unc2s": 0.2
+          },
+          "Ni": {
+            "value": 116.0,
+            "unc2s": 7.0
+          },
+          "P": {
+            "value": 1266,
+            "unc2s": 0
+          },
+          "Pb": {
+            "value": 1.7,
+            "unc2s": 0.2
+          },
+          "Pr": {
+            "value": 5.35,
+            "unc2s": 0.22
+          },
+          "Pt": {
+            "value": 0.46,
+            "unc2s": 0.09
+          },
+          "Rb": {
+            "value": 9.2,
+            "unc2s": 0.04
+          },
+          "Re": {
+            "value": 0.00047,
+            "unc2s": 0.00013
+          },
+          "Sb": {
+            "value": 0.3,
+            "unc2s": 0.13
+          },
+          "Sc": {
+            "value": 33.0,
+            "unc2s": 2.0
+          },
+          "Si": {
+            "value": 230428,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 6.1,
+            "unc2s": 0.03
+          },
+          "Sn": {
+            "value": 2.6,
+            "unc2s": 0.6
+          },
+          "Sr": {
+            "value": 396.0,
+            "unc2s": 1.0
+          },
+          "Ta": {
+            "value": 1.15,
+            "unc2s": 0.1
+          },
+          "Tb": {
+            "value": 0.92,
+            "unc2s": 0.04
+          },
+          "Th": {
+            "value": 1.22,
+            "unc2s": 0.05
+          },
+          "Ti": {
+            "value": 16300.0,
+            "unc2s": 900.0
+          },
+          "Tm": {
+            "value": 0.34,
+            "unc2s": 0.02
+          },
+          "U": {
+            "value": 0.403,
+            "unc2s": 0.003
+          },
+          "V": {
+            "value": 308.0,
+            "unc2s": 19.0
+          },
+          "W": {
+            "value": 0.23,
+            "unc2s": 0.04
+          },
+          "Y": {
+            "value": 26.0,
+            "unc2s": 2.0
+          },
+          "Yb": {
+            "value": 2.01,
+            "unc2s": 0.02
+          },
+          "Zn": {
+            "value": 102.0,
+            "unc2s": 6.0
+          },
+          "Zr": {
+            "value": 170.0,
+            "unc2s": 7.0
+          },
+          "206Pb/204Pb": {
+            "value": 18.733,
+            "unc2s": 0
+          },
+          "207Pb/204Pb": {
+            "value": 15.571,
+            "unc2s": 0
+          },
+          "208Pb/204Pb": {
+            "value": 38.27,
+            "unc2s": 0
+          },
+          "87Sr/86Sr": {
+            "value": 0.703469,
+            "unc2s": 0
+          }
+        }
+      }
+    },
+    "KL2-G": {
+      "name": "MPI-DING KL2-G basalt glass",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [
+        "DING KL2-G"
+      ],
+      "laser": {
+        "name": "KL2-G",
+        "aliases": [
+          "DING KL2-G"
+        ],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values for the MPI-DING glasses (Jochum et al. 2006, Geochem. Geophys. Geosyst. 7), as of 2018",
+        "confirmed": false,
+        "values": {
+          "143Nd/144Nd": {
+            "value": 0.512952,
+            "unc2s": 1.7e-05
+          },
+          "176Hf/177Hf": {
+            "value": 0.283108,
+            "unc2s": 2e-06
+          },
+          "206Pb/204Pb": {
+            "value": 19.038,
+            "unc2s": 0.009
+          },
+          "207Pb/204Pb": {
+            "value": 15.634,
+            "unc2s": 0.006
+          },
+          "207Pb/206Pb": {
+            "value": 0.82099,
+            "unc2s": 0.00066
+          },
+          "208Pb/204Pb": {
+            "value": 38.509,
+            "unc2s": 0.047
+          },
+          "208Pb/206Pb": {
+            "value": 2.0232,
+            "unc2s": 0.0016
+          },
+          "234U/238U": {
+            "value": 5.32e-05,
+            "unc2s": 0
+          },
+          "87Sr/86Sr": {
+            "value": 0.703565,
+            "unc2s": 2.2e-05
+          },
+          "Ag": {
+            "value": 0.15,
+            "unc2s": 0
+          },
+          "Al": {
+            "value": 70391.17125225396,
+            "unc2s": 1058.513853417353
+          },
+          "As": {
+            "value": 0.17,
+            "unc2s": 0
+          },
+          "Au": {
+            "value": 0.4,
+            "unc2s": 0
+          },
+          "B": {
+            "value": 2.73,
+            "unc2s": 0.28
+          },
+          "Ba": {
+            "value": 123,
+            "unc2s": 5
+          },
+          "Be": {
+            "value": 0.88,
+            "unc2s": 0.34
+          },
+          "Bi": {
+            "value": 0.036,
+            "unc2s": 0.014
+          },
+          "C": {
+            "value": 1.4191915290054307,
+            "unc2s": 0.0
+          },
+          "Ca": {
+            "value": 77901.84924300516,
+            "unc2s": 1429.3917292294525
+          },
+          "Cd": {
+            "value": 0.09,
+            "unc2s": 0
+          },
+          "Ce": {
+            "value": 32.4,
+            "unc2s": 0.7
+          },
+          "Cl": {
+            "value": 26,
+            "unc2s": 0
+          },
+          "Co": {
+            "value": 41.2,
+            "unc2s": 2.3
+          },
+          "Cr": {
+            "value": 294,
+            "unc2s": 27
+          },
+          "Cs": {
+            "value": 0.115,
+            "unc2s": 0.009
+          },
+          "Cu": {
+            "value": 87.9,
+            "unc2s": 9.1
+          },
+          "Dy": {
+            "value": 5.22,
+            "unc2s": 0.12
+          },
+          "Er": {
+            "value": 2.54,
+            "unc2s": 0.07
+          },
+          "Eu": {
+            "value": 1.92,
+            "unc2s": 0.04
+          },
+          "F": {
+            "value": 177,
+            "unc2s": 0
+          },
+          "Fe": {
+            "value": 83172.08117588107,
+            "unc2s": 777.3091698680474
+          },
+          "Ga": {
+            "value": 20,
+            "unc2s": 1.2
+          },
+          "Gd": {
+            "value": 5.92,
+            "unc2s": 0.2
+          },
+          "Ge": {
+            "value": 1.3,
+            "unc2s": 0.8
+          },
+          "H": {
+            "value": 16.78601165695254,
+            "unc2s": 0.0
+          },
+          "Hf": {
+            "value": 3.93,
+            "unc2s": 0.14
+          },
+          "Ho": {
+            "value": 0.961,
+            "unc2s": 0.022
+          },
+          "In": {
+            "value": 0.24,
+            "unc2s": 0
+          },
+          "Ir": {
+            "value": 0.1,
+            "unc2s": 0
+          },
+          "K": {
+            "value": 3984.7262504830373,
+            "unc2s": 83.01513021839662
+          },
+          "La": {
+            "value": 13.1,
+            "unc2s": 0.2
+          },
+          "Li": {
+            "value": 5.1,
+            "unc2s": 0.5
+          },
+          "Lu": {
+            "value": 0.285,
+            "unc2s": 0.009
+          },
+          "Mg": {
+            "value": 44263.27411671298,
+            "unc2s": 542.7376935291782
+          },
+          "Mn": {
+            "value": 1277.862277430111,
+            "unc2s": 69.70157876891514
+          },
+          "Mo": {
+            "value": 3.6,
+            "unc2s": 0.6
+          },
+          "Na": {
+            "value": 17433.76306161163,
+            "unc2s": 593.4898063527363
+          },
+          "Nb": {
+            "value": 15,
+            "unc2s": 0.5
+          },
+          "Nd": {
+            "value": 21.6,
+            "unc2s": 0.4
+          },
+          "Ni": {
+            "value": 112,
+            "unc2s": 5
+          },
+          "O": {
+            "value": 444000,
+            "unc2s": 0
+          },
+          "Os": {
+            "value": 0.3,
+            "unc2s": 0
+          },
+          "P": {
+            "value": 1012.5102162814158,
+            "unc2s": 113.47097251429659
+          },
+          "Pb": {
+            "value": 2.07,
+            "unc2s": 0.1
+          },
+          "Pd": {
+            "value": 6,
+            "unc2s": 0
+          },
+          "Pr": {
+            "value": 4.6,
+            "unc2s": 0.1
+          },
+          "Pt": {
+            "value": 16,
+            "unc2s": 0
+          },
+          "Rb": {
+            "value": 8.7,
+            "unc2s": 0.4
+          },
+          "Re": {
+            "value": 0.0007,
+            "unc2s": 0
+          },
+          "Rh": {
+            "value": 37,
+            "unc2s": 0
+          },
+          "S": {
+            "value": 7.7,
+            "unc2s": 0
+          },
+          "Sb": {
+            "value": 0.14,
+            "unc2s": 0.03
+          },
+          "Sc": {
+            "value": 31.8,
+            "unc2s": 0.9
+          },
+          "Se": {
+            "value": 0.07,
+            "unc2s": 0
+          },
+          "Si": {
+            "value": 235120.6664114641,
+            "unc2s": 1402.3101376429272
+          },
+          "Sm": {
+            "value": 5.54,
+            "unc2s": 0.09
+          },
+          "Sn": {
+            "value": 1.54,
+            "unc2s": 0.29
+          },
+          "Sr": {
+            "value": 356,
+            "unc2s": 8
+          },
+          "Ta": {
+            "value": 0.961,
+            "unc2s": 0.022
+          },
+          "Tb": {
+            "value": 0.89,
+            "unc2s": 0.031
+          },
+          "Th": {
+            "value": 1.02,
+            "unc2s": 0.03
+          },
+          "Ti": {
+            "value": 15343.331872534904,
+            "unc2s": 539.4140111438052
+          },
+          "Tm": {
+            "value": 0.331,
+            "unc2s": 0.009
+          },
+          "U": {
+            "value": 0.548,
+            "unc2s": 0.016
+          },
+          "V": {
+            "value": 309,
+            "unc2s": 38
+          },
+          "W": {
+            "value": 0.37,
+            "unc2s": 0.06
+          },
+          "Y": {
+            "value": 25.4,
+            "unc2s": 1.1
+          },
+          "Yb": {
+            "value": 2.1,
+            "unc2s": 0.05
+          },
+          "Zn": {
+            "value": 110,
+            "unc2s": 10
+          },
+          "Zr": {
+            "value": 152,
+            "unc2s": 5
+          }
+        }
+      }
+    },
+    "GSD-1G": {
+      "name": "USGS GSD-1G synthetic basalt glass",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "GSD-1G",
+        "aliases": [],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values (Jochum et al. 2005, Geostand. Geoanal. Res. 29), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Ag": {
+            "value": 23.0,
+            "unc2s": 3.0
+          },
+          "Al": {
+            "value": 70919.5,
+            "unc2s": 0
+          },
+          "As": {
+            "value": 27.0,
+            "unc2s": 8.0
+          },
+          "Au": {
+            "value": 4.0,
+            "unc2s": 0.0
+          },
+          "B": {
+            "value": 50.0,
+            "unc2s": 20.0
+          },
+          "Ba": {
+            "value": 67.0,
+            "unc2s": 1.0
+          },
+          "Be": {
+            "value": 46.0,
+            "unc2s": 5.0
+          },
+          "Bi": {
+            "value": 35.0,
+            "unc2s": 4.0
+          },
+          "Ca": {
+            "value": 51458.4,
+            "unc2s": 0
+          },
+          "Cd": {
+            "value": 18.0,
+            "unc2s": 4.0
+          },
+          "Ce": {
+            "value": 41.4,
+            "unc2s": 0.4
+          },
+          "Co": {
+            "value": 40.0,
+            "unc2s": 2.0
+          },
+          "Cr": {
+            "value": 42.0,
+            "unc2s": 3.0
+          },
+          "Cs": {
+            "value": 32.0,
+            "unc2s": 2.0
+          },
+          "Cu": {
+            "value": 42.0,
+            "unc2s": 2.0
+          },
+          "Dy": {
+            "value": 51.2,
+            "unc2s": 0.5
+          },
+          "Er": {
+            "value": 40.1,
+            "unc2s": 0.4
+          },
+          "Eu": {
+            "value": 41.0,
+            "unc2s": 2.0
+          },
+          "Fe": {
+            "value": 103382.23,
+            "unc2s": 0
+          },
+          "Ga": {
+            "value": 54.0,
+            "unc2s": 7.0
+          },
+          "Gd": {
+            "value": 50.7,
+            "unc2s": 0.5
+          },
+          "Ge": {
+            "value": 32.0,
+            "unc2s": 8.0
+          },
+          "Hf": {
+            "value": 39.0,
+            "unc2s": 2.0
+          },
+          "Ho": {
+            "value": 49.0,
+            "unc2s": 2.0
+          },
+          "In": {
+            "value": 38.0,
+            "unc2s": 5.0
+          },
+          "K": {
+            "value": 25300.0,
+            "unc2s": 300.0
+          },
+          "La": {
+            "value": 39.1,
+            "unc2s": 0.4
+          },
+          "Li": {
+            "value": 43.0,
+            "unc2s": 6.0
+          },
+          "Lu": {
+            "value": 51.5,
+            "unc2s": 0.5
+          },
+          "Mg": {
+            "value": 21711.6,
+            "unc2s": 0
+          },
+          "Mn": {
+            "value": 220.0,
+            "unc2s": 20.0
+          },
+          "Mo": {
+            "value": 39.0,
+            "unc2s": 3.0
+          },
+          "Na": {
+            "value": 26706.96,
+            "unc2s": 0
+          },
+          "Nb": {
+            "value": 42.0,
+            "unc2s": 3.0
+          },
+          "Nd": {
+            "value": 44.7,
+            "unc2s": 0.5
+          },
+          "Ni": {
+            "value": 58.0,
+            "unc2s": 4.0
+          },
+          "P": {
+            "value": 860.0,
+            "unc2s": 160.0
+          },
+          "Pb": {
+            "value": 50.0,
+            "unc2s": 2.0
+          },
+          "Pr": {
+            "value": 45.0,
+            "unc2s": 1.0
+          },
+          "Pt": {
+            "value": 6.0,
+            "unc2s": 0.0
+          },
+          "Rb": {
+            "value": 37.3,
+            "unc2s": 0.4
+          },
+          "Sb": {
+            "value": 43.0,
+            "unc2s": 7.0
+          },
+          "Sc": {
+            "value": 52.0,
+            "unc2s": 2.0
+          },
+          "Se": {
+            "value": 2.0,
+            "unc2s": 1.0
+          },
+          "Si": {
+            "value": 248678,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 47.8,
+            "unc2s": 0.5
+          },
+          "Sn": {
+            "value": 29.0,
+            "unc2s": 6.0
+          },
+          "Sr": {
+            "value": 69.4,
+            "unc2s": 0.7
+          },
+          "Ta": {
+            "value": 40.0,
+            "unc2s": 4.0
+          },
+          "Tb": {
+            "value": 47.0,
+            "unc2s": 2.0
+          },
+          "Th": {
+            "value": 41.0,
+            "unc2s": 2.0
+          },
+          "Ti": {
+            "value": 7433.924,
+            "unc2s": 0
+          },
+          "Tl": {
+            "value": 0.9,
+            "unc2s": 0.1
+          },
+          "Tm": {
+            "value": 49.0,
+            "unc2s": 2.0
+          },
+          "U": {
+            "value": 41.0,
+            "unc2s": 2.0
+          },
+          "V": {
+            "value": 44.0,
+            "unc2s": 2.0
+          },
+          "W": {
+            "value": 43.0,
+            "unc2s": 4.0
+          },
+          "Y": {
+            "value": 42.0,
+            "unc2s": 2.0
+          },
+          "Yb": {
+            "value": 50.9,
+            "unc2s": 0.5
+          },
+          "Zn": {
+            "value": 54.0,
+            "unc2s": 2.0
+          },
+          "Zr": {
+            "value": 42.0,
+            "unc2s": 2.0
+          },
+          "143Nd/144Nd": {
+            "value": 0.511521,
+            "unc2s": 0
+          },
+          "176Hf/177Hf": {
+            "value": 0.282121,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 19.579,
+            "unc2s": 0
+          },
+          "207Pb/204Pb": {
+            "value": 15.745,
+            "unc2s": 0
+          },
+          "207Pb/206Pb": {
+            "value": 0.80418,
+            "unc2s": 0
+          },
+          "208Pb/204Pb": {
+            "value": 38.908,
+            "unc2s": 0
+          },
+          "208Pb/206Pb": {
+            "value": 1.9871,
+            "unc2s": 0
+          },
+          "234U/238U": {
+            "value": 1.798,
+            "unc2s": 0
+          },
+          "87Sr/86Sr": {
+            "value": 0.709416,
+            "unc2s": 0
+          },
+          "d11B": {
+            "value": 10.1,
+            "unc2s": 0.0
+          },
+          "d7Li": {
+            "value": 30.9,
+            "unc2s": 1.0
+          }
+        }
+      }
+    },
+    "NIST614": {
+      "name": "NIST SRM 614 glass",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "NIST614",
+        "aliases": [],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values (Jochum et al. 2011, Geostand. Geoanal. Res. 35), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Ag": {
+            "value": 0.42,
+            "unc2s": 0.04
+          },
+          "Al": {
+            "value": 10796.841304856998,
+            "unc2s": 264.62846335433824
+          },
+          "As": {
+            "value": 0.74,
+            "unc2s": 0.23
+          },
+          "Au": {
+            "value": 0.48,
+            "unc2s": 0.07
+          },
+          "B": {
+            "value": 1.49,
+            "unc2s": 0.19
+          },
+          "Ba": {
+            "value": 3.2,
+            "unc2s": 0.09
+          },
+          "Be": {
+            "value": 0.753,
+            "unc2s": 0.051
+          },
+          "Bi": {
+            "value": 0.581,
+            "unc2s": 0.043
+          },
+          "C": {
+            "value": 1.091685791542639,
+            "unc2s": 0.0
+          },
+          "Ca": {
+            "value": 85048.80788915242,
+            "unc2s": 1429.3917292294525
+          },
+          "Cd": {
+            "value": 0.56,
+            "unc2s": 0.05
+          },
+          "Ce": {
+            "value": 0.813,
+            "unc2s": 0.025
+          },
+          "Cl": {
+            "value": 102,
+            "unc2s": 84
+          },
+          "Co": {
+            "value": 0.79,
+            "unc2s": 0.09
+          },
+          "Cr": {
+            "value": 1.19,
+            "unc2s": 0.12
+          },
+          "Cs": {
+            "value": 0.664,
+            "unc2s": 0.034
+          },
+          "Cu": {
+            "value": 1.37,
+            "unc2s": 0.07
+          },
+          "Dy": {
+            "value": 0.746,
+            "unc2s": 0.022
+          },
+          "Er": {
+            "value": 0.74,
+            "unc2s": 0.017
+          },
+          "Eu": {
+            "value": 0.77,
+            "unc2s": 0.016
+          },
+          "F": {
+            "value": 6.2,
+            "unc2s": 0
+          },
+          "Fe": {
+            "value": 18.8,
+            "unc2s": 6
+          },
+          "Ga": {
+            "value": 1.31,
+            "unc2s": 0.09
+          },
+          "Gd": {
+            "value": 0.763,
+            "unc2s": 0.021
+          },
+          "Ge": {
+            "value": 0.942,
+            "unc2s": 0.096
+          },
+          "H": {
+            "value": 21.262281432139883,
+            "unc2s": 0.0
+          },
+          "Hf": {
+            "value": 0.711,
+            "unc2s": 0.022
+          },
+          "Ho": {
+            "value": 0.749,
+            "unc2s": 0.015
+          },
+          "In": {
+            "value": 0.79,
+            "unc2s": 0.05
+          },
+          "Ir": {
+            "value": 0.002,
+            "unc2s": 0
+          },
+          "K": {
+            "value": 30,
+            "unc2s": 1
+          },
+          "La": {
+            "value": 0.72,
+            "unc2s": 0.013
+          },
+          "Li": {
+            "value": 1.69,
+            "unc2s": 0.09
+          },
+          "Lu": {
+            "value": 0.732,
+            "unc2s": 0.018
+          },
+          "Mg": {
+            "value": 33.8,
+            "unc2s": 1.9
+          },
+          "Mn": {
+            "value": 1.42,
+            "unc2s": 0.07
+          },
+          "Mo": {
+            "value": 0.8,
+            "unc2s": 0.03
+          },
+          "Na": {
+            "value": 101635.12933790608,
+            "unc2s": 2225.5867738227607
+          },
+          "Nb": {
+            "value": 0.824,
+            "unc2s": 0.03
+          },
+          "Nd": {
+            "value": 0.752,
+            "unc2s": 0.014
+          },
+          "Ni": {
+            "value": 1.1,
+            "unc2s": 0.1
+          },
+          "P": {
+            "value": 11.4,
+            "unc2s": 3.9
+          },
+          "Pb": {
+            "value": 2.32,
+            "unc2s": 0.04
+          },
+          "Pd": {
+            "value": 2.05,
+            "unc2s": 0.1
+          },
+          "Pr": {
+            "value": 0.768,
+            "unc2s": 0.015
+          },
+          "Pt": {
+            "value": 2.36,
+            "unc2s": 0.12
+          },
+          "Rb": {
+            "value": 0.855,
+            "unc2s": 0.005
+          },
+          "Re": {
+            "value": 0.17,
+            "unc2s": 0.008
+          },
+          "Rh": {
+            "value": 1.54,
+            "unc2s": 0.18
+          },
+          "S": {
+            "value": 291,
+            "unc2s": 66
+          },
+          "Sb": {
+            "value": 0.79,
+            "unc2s": 0.064
+          },
+          "Sc": {
+            "value": 0.74,
+            "unc2s": 0
+          },
+          "Se": {
+            "value": 0.4,
+            "unc2s": 0.08
+          },
+          "Si": {
+            "value": 337021.8697468501,
+            "unc2s": 4206.930412928782
+          },
+          "Sm": {
+            "value": 0.754,
+            "unc2s": 0.013
+          },
+          "Sn": {
+            "value": 1.68,
+            "unc2s": 0.15
+          },
+          "Sr": {
+            "value": 45.8,
+            "unc2s": 0.1
+          },
+          "Ta": {
+            "value": 0.808,
+            "unc2s": 0.026
+          },
+          "Tb": {
+            "value": 0.739,
+            "unc2s": 0.02
+          },
+          "Th": {
+            "value": 0.748,
+            "unc2s": 0.006
+          },
+          "Ti": {
+            "value": 3.61,
+            "unc2s": 0.25
+          },
+          "Tl": {
+            "value": 0.273,
+            "unc2s": 0.02
+          },
+          "Tm": {
+            "value": 0.732,
+            "unc2s": 0.02
+          },
+          "U": {
+            "value": 0.823,
+            "unc2s": 0.002
+          },
+          "V": {
+            "value": 1.01,
+            "unc2s": 0.04
+          },
+          "W": {
+            "value": 0.806,
+            "unc2s": 0.071
+          },
+          "Y": {
+            "value": 0.79,
+            "unc2s": 0.032
+          },
+          "Yb": {
+            "value": 0.777,
+            "unc2s": 0.021
+          },
+          "Zn": {
+            "value": 2.79,
+            "unc2s": 0.38
+          },
+          "Zr": {
+            "value": 0.848,
+            "unc2s": 0.028
+          }
+        }
+      }
+    },
+    "NIST616": {
+      "name": "NIST SRM 616 glass",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "NIST616",
+        "aliases": [],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values (Jochum et al. 2011, Geostand. Geoanal. Res. 35), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Ag": {
+            "value": 0.048,
+            "unc2s": 0.02
+          },
+          "Al": {
+            "value": 10532.21284150266,
+            "unc2s": 471.03866477072194
+          },
+          "As": {
+            "value": 0.2,
+            "unc2s": 0
+          },
+          "Au": {
+            "value": 0.189,
+            "unc2s": 0.024
+          },
+          "B": {
+            "value": 0.94,
+            "unc2s": 0.47
+          },
+          "Ba": {
+            "value": 2.31,
+            "unc2s": 0.12
+          },
+          "Be": {
+            "value": 0.028,
+            "unc2s": 0.025
+          },
+          "Bi": {
+            "value": 0.021,
+            "unc2s": 0.006
+          },
+          "Ca": {
+            "value": 84334.1120245377,
+            "unc2s": 714.6958646147262
+          },
+          "Cd": {
+            "value": 0.036,
+            "unc2s": 0
+          },
+          "Ce": {
+            "value": 0.0292,
+            "unc2s": 0.0011
+          },
+          "Co": {
+            "value": 0.051,
+            "unc2s": 0.016
+          },
+          "Cr": {
+            "value": 0.4,
+            "unc2s": 0.13
+          },
+          "Cs": {
+            "value": 0.027,
+            "unc2s": 0.002
+          },
+          "Cu": {
+            "value": 0.7,
+            "unc2s": 0.3
+          },
+          "Dy": {
+            "value": 0.0173,
+            "unc2s": 0.0014
+          },
+          "Er": {
+            "value": 0.0157,
+            "unc2s": 0.0013
+          },
+          "Eu": {
+            "value": 0.0146,
+            "unc2s": 0.0007
+          },
+          "Fe": {
+            "value": 16,
+            "unc2s": 8
+          },
+          "Ga": {
+            "value": 0.5,
+            "unc2s": 0.13
+          },
+          "Gd": {
+            "value": 0.0162,
+            "unc2s": 0.0024
+          },
+          "Ge": {
+            "value": 0.283,
+            "unc2s": 0.039
+          },
+          "Hf": {
+            "value": 0.0154,
+            "unc2s": 0.0018
+          },
+          "Ho": {
+            "value": 0.0169,
+            "unc2s": 0.0031
+          },
+          "In": {
+            "value": 0.0302,
+            "unc2s": 0.0035
+          },
+          "K": {
+            "value": 29,
+            "unc2s": 1
+          },
+          "La": {
+            "value": 0.0298,
+            "unc2s": 0.0032
+          },
+          "Li": {
+            "value": 0.895,
+            "unc2s": 0.059
+          },
+          "Lu": {
+            "value": 0.0145,
+            "unc2s": 0.002
+          },
+          "Mg": {
+            "value": 34.7,
+            "unc2s": 2.8
+          },
+          "Mn": {
+            "value": 0.609,
+            "unc2s": 0.027
+          },
+          "Mo": {
+            "value": 0.0879,
+            "unc2s": 0.013
+          },
+          "Na": {
+            "value": 101635.12933790608,
+            "unc2s": 6676.760321468284
+          },
+          "Nb": {
+            "value": 0.0194,
+            "unc2s": 0.0015
+          },
+          "Nd": {
+            "value": 0.0227,
+            "unc2s": 0.0031
+          },
+          "Ni": {
+            "value": 0.435,
+            "unc2s": 0.1
+          },
+          "P": {
+            "value": 13,
+            "unc2s": 10
+          },
+          "Pb": {
+            "value": 1.85,
+            "unc2s": 0.04
+          },
+          "Pd": {
+            "value": 1.77,
+            "unc2s": 0.13
+          },
+          "Pr": {
+            "value": 0.015,
+            "unc2s": 0.0009
+          },
+          "Pt": {
+            "value": 1.77,
+            "unc2s": 0.25
+          },
+          "Rb": {
+            "value": 0.104,
+            "unc2s": 0.004
+          },
+          "Re": {
+            "value": 0.0036,
+            "unc2s": 0.0013
+          },
+          "Rh": {
+            "value": 0.98,
+            "unc2s": 0.34
+          },
+          "Sb": {
+            "value": 0.076,
+            "unc2s": 0.008
+          },
+          "Sc": {
+            "value": 0.026,
+            "unc2s": 0
+          },
+          "Se": {
+            "value": 0.22,
+            "unc2s": 0
+          },
+          "Si": {
+            "value": 338891.61659704073,
+            "unc2s": 3272.0569878334964
+          },
+          "Sm": {
+            "value": 0.0164,
+            "unc2s": 0.0029
+          },
+          "Sn": {
+            "value": 1.18,
+            "unc2s": 0.08
+          },
+          "Sr": {
+            "value": 41.72,
+            "unc2s": 0.05
+          },
+          "Ta": {
+            "value": 0.0299,
+            "unc2s": 0.0055
+          },
+          "Tb": {
+            "value": 0.0145,
+            "unc2s": 0.0021
+          },
+          "Th": {
+            "value": 0.0252,
+            "unc2s": 0.007
+          },
+          "Ti": {
+            "value": 2.65,
+            "unc2s": 0.29
+          },
+          "Tl": {
+            "value": 0.0081,
+            "unc2s": 0.0012
+          },
+          "Tm": {
+            "value": 0.0144,
+            "unc2s": 0.0012
+          },
+          "U": {
+            "value": 0.0721,
+            "unc2s": 0.0013
+          },
+          "V": {
+            "value": 0.228,
+            "unc2s": 0.015
+          },
+          "W": {
+            "value": 0.043,
+            "unc2s": 0.004
+          },
+          "Y": {
+            "value": 0.0288,
+            "unc2s": 0.0024
+          },
+          "Yb": {
+            "value": 0.0171,
+            "unc2s": 0.0023
+          },
+          "Zn": {
+            "value": 1.33,
+            "unc2s": 0.27
+          },
+          "Zr": {
+            "value": 0.0951,
+            "unc2s": 0.008
+          }
+        }
+      }
+    },
+    "ML3B-G": {
+      "name": "MPI-DING ML3B-G basalt glass",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "ML3B-G",
+        "aliases": [],
+        "matrix": "Glass",
+        "source": "GeoReM preferred values for the MPI-DING glasses (Jochum et al. 2006, Geochem. Geophys. Geosyst. 7), as of 2018",
+        "confirmed": false,
+        "values": {
+          "143Nd/144Nd": {
+            "value": 0.512882,
+            "unc2s": 0
+          },
+          "176Hf/177Hf": {
+            "value": 0.283067,
+            "unc2s": 0
+          },
+          "206Pb/204Pb": {
+            "value": 18.72,
+            "unc2s": 0.04
+          },
+          "207Pb/204Pb": {
+            "value": 15.58,
+            "unc2s": 0.1
+          },
+          "207Pb/206Pb": {
+            "value": 0.8329,
+            "unc2s": 0.002
+          },
+          "208Pb/204Pb": {
+            "value": 38.42,
+            "unc2s": 0.15
+          },
+          "208Pb/206Pb": {
+            "value": 2.054,
+            "unc2s": 0.002
+          },
+          "87Sr/86Sr": {
+            "value": 0.703849,
+            "unc2s": 0
+          },
+          "Ag": {
+            "value": 0.03,
+            "unc2s": 0
+          },
+          "Al": {
+            "value": 71978.94203237999,
+            "unc2s": 1058.513853417353
+          },
+          "As": {
+            "value": 0.28,
+            "unc2s": 0
+          },
+          "Au": {
+            "value": 0.065,
+            "unc2s": 0.082
+          },
+          "B": {
+            "value": 2.5,
+            "unc2s": 0.6
+          },
+          "Ba": {
+            "value": 80.1,
+            "unc2s": 2.2
+          },
+          "Be": {
+            "value": 0.62,
+            "unc2s": 0.14
+          },
+          "Bi": {
+            "value": 0.006,
+            "unc2s": 0.009
+          },
+          "Br": {
+            "value": 0.2,
+            "unc2s": 0
+          },
+          "C": {
+            "value": 1.282730805062601,
+            "unc2s": 0.0
+          },
+          "Ca": {
+            "value": 75043.06578454626,
+            "unc2s": 714.6958646147262
+          },
+          "Cd": {
+            "value": 0.1,
+            "unc2s": 0
+          },
+          "Ce": {
+            "value": 23.1,
+            "unc2s": 0.3
+          },
+          "Cl": {
+            "value": 7.5,
+            "unc2s": 0
+          },
+          "Co": {
+            "value": 41.2,
+            "unc2s": 3.5
+          },
+          "Cr": {
+            "value": 177,
+            "unc2s": 23
+          },
+          "Cs": {
+            "value": 0.14,
+            "unc2s": 0.012
+          },
+          "Cu": {
+            "value": 112,
+            "unc2s": 10
+          },
+          "Dy": {
+            "value": 4.84,
+            "unc2s": 0.07
+          },
+          "Er": {
+            "value": 2.44,
+            "unc2s": 0.05
+          },
+          "Eu": {
+            "value": 1.67,
+            "unc2s": 0.02
+          },
+          "F": {
+            "value": 70,
+            "unc2s": 0
+          },
+          "Fe": {
+            "value": 84726.69951561718,
+            "unc2s": 777.3091698680474
+          },
+          "Ga": {
+            "value": 19.6,
+            "unc2s": 2.1
+          },
+          "Gd": {
+            "value": 5.26,
+            "unc2s": 0.23
+          },
+          "Ge": {
+            "value": 1.1,
+            "unc2s": 1.1
+          },
+          "H": {
+            "value": 16.78601165695254,
+            "unc2s": 0.0
+          },
+          "Hf": {
+            "value": 3.22,
+            "unc2s": 0.08
+          },
+          "Hg": {
+            "value": 0.3,
+            "unc2s": 0
+          },
+          "Ho": {
+            "value": 0.906,
+            "unc2s": 0.018
+          },
+          "In": {
+            "value": 0.2,
+            "unc2s": 0
+          },
+          "Ir": {
+            "value": 0.03,
+            "unc2s": 0
+          },
+          "K": {
+            "value": 3196.0825134082697,
+            "unc2s": 33.20605208735865
+          },
+          "La": {
+            "value": 8.99,
+            "unc2s": 0.13
+          },
+          "Li": {
+            "value": 4.5,
+            "unc2s": 0.4
+          },
+          "Lu": {
+            "value": 0.286,
+            "unc2s": 0.006
+          },
+          "Mg": {
+            "value": 39740.46000396983,
+            "unc2s": 482.43350535926953
+          },
+          "Mn": {
+            "value": 1316.5853767461751,
+            "unc2s": 69.70157876891514
+          },
+          "Mo": {
+            "value": 16.7,
+            "unc2s": 2.3
+          },
+          "Na": {
+            "value": 17804.694190582086,
+            "unc2s": 445.1173547645522
+          },
+          "Nb": {
+            "value": 8.61,
+            "unc2s": 0.22
+          },
+          "Nd": {
+            "value": 16.7,
+            "unc2s": 0.2
+          },
+          "Ni": {
+            "value": 107,
+            "unc2s": 9
+          },
+          "O": {
+            "value": 447000,
+            "unc2s": 0
+          },
+          "P": {
+            "value": 1003.7816799341622,
+            "unc2s": 109.10670434066981
+          },
+          "Pb": {
+            "value": 1.38,
+            "unc2s": 0.07
+          },
+          "Pr": {
+            "value": 3.43,
+            "unc2s": 0.06
+          },
+          "Pt": {
+            "value": 8.8,
+            "unc2s": 8.8
+          },
+          "Rb": {
+            "value": 5.8,
+            "unc2s": 0.21
+          },
+          "Re": {
+            "value": 0.0007,
+            "unc2s": 0
+          },
+          "S": {
+            "value": 1.2,
+            "unc2s": 0
+          },
+          "Sb": {
+            "value": 0.11,
+            "unc2s": 0.05
+          },
+          "Sc": {
+            "value": 31.6,
+            "unc2s": 1.6
+          },
+          "Se": {
+            "value": 0.06,
+            "unc2s": 0
+          },
+          "Si": {
+            "value": 240262.4702494882,
+            "unc2s": 2804.6202752858544
+          },
+          "Sm": {
+            "value": 4.75,
+            "unc2s": 0.07
+          },
+          "Sn": {
+            "value": 1.14,
+            "unc2s": 0.33
+          },
+          "Sr": {
+            "value": 312,
+            "unc2s": 4
+          },
+          "Ta": {
+            "value": 0.555,
+            "unc2s": 0.013
+          },
+          "Tb": {
+            "value": 0.797,
+            "unc2s": 0.021
+          },
+          "Th": {
+            "value": 0.548,
+            "unc2s": 0.011
+          },
+          "Ti": {
+            "value": 12766.131597070056,
+            "unc2s": 539.4140111438052
+          },
+          "Tl": {
+            "value": 0.008,
+            "unc2s": 0
+          },
+          "Tm": {
+            "value": 0.324,
+            "unc2s": 0.007
+          },
+          "U": {
+            "value": 0.442,
+            "unc2s": 0.018
+          },
+          "V": {
+            "value": 268,
+            "unc2s": 23
+          },
+          "W": {
+            "value": 0.35,
+            "unc2s": 0.09
+          },
+          "Y": {
+            "value": 23.9,
+            "unc2s": 0.7
+          },
+          "Yb": {
+            "value": 2.06,
+            "unc2s": 0.04
+          },
+          "Zn": {
+            "value": 108,
+            "unc2s": 14
+          },
+          "Zr": {
+            "value": 122,
+            "unc2s": 3
+          }
+        }
+      }
+    }
+  },
+  "Apatite": {
+    "MAD": {
+      "name": "Madagascar apatite",
+      "age": 473.46,
+      "age_2s": 0,
+      "source": "Thomson et al. (2012) Geochem. Geophys. Geosyst. 13",
+      "aliases": [],
+      "laser": {
+        "name": "MAD",
+        "aliases": [],
+        "matrix": "Apatite",
+        "source": "Thomson et al. (2012) Geochem. Geophys. Geosyst. 13. ID-TIMS concordia age 473.5 ± 0.7 Ma for one crystal (Chew et al. 2014, Chem. Geol. 363); other Madagascar crystals differ.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.0762416,
+            "unc2s": 0
+          },
+          "207Pb/235U": {
+            "value": 0.601257,
+            "unc2s": 0
+          },
+          "207Pb/206Pb": {
+            "value": 0.0571961,
+            "unc2s": 0
+          },
+          "Pb": {
+            "value": 51.2,
+            "unc2s": 0
+          },
+          "Th": {
+            "value": 798,
+            "unc2s": 0
+          },
+          "U": {
+            "value": 22.2,
+            "unc2s": 0
+          },
+          "87Sr/86Sr": {
+            "value": 0.7118,
+            "unc2s": 3e-05
+          },
+          "87Rb/86Sr": {
+            "value": 0.0001,
+            "unc2s": 0.0002
+          }
+        }
+      }
+    },
+    "McClure": {
+      "name": "McClure Mountain apatite",
+      "age": 523.51,
+      "age_2s": 2.09,
+      "source": "Schoene & Bowring (2006) Contrib. Mineral. Petrol. 151",
+      "aliases": [],
+      "laser": {
+        "name": "McClure",
+        "aliases": [],
+        "matrix": "Apatite",
+        "source": "Schoene & Bowring (2006) Contrib. Mineral. Petrol. 151: weighted mean 207Pb/235U age 523.51 ± 2.09 Ma.",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.084598082,
+            "unc2s": 0
+          },
+          "207Pb/235U": {
+            "value": 0.67460748,
+            "unc2s": 0
+          },
+          "207Pb/206Pb": {
+            "value": 0.057834819,
+            "unc2s": 0
+          },
+          "Th": {
+            "value": 71,
+            "unc2s": 0
+          },
+          "U": {
+            "value": 23,
+            "unc2s": 0
+          }
+        }
+      }
+    }
+  },
+  "Basalt": {
+    "JB-2": {
+      "name": "GSJ JB-2 basalt",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "JB-2",
+        "aliases": [],
+        "matrix": "Basalt",
+        "source": "GeoReM preferred values (Jochum et al. 2005, Geostand. Geoanal. Res. 29), as of 2018",
+        "confirmed": false,
+        "values": {
+          "143Nd/144Nd": {
+            "value": 0.513093,
+            "unc2s": 1.1e-05
+          },
+          "176Hf/177Hf": {
+            "value": 0.283248,
+            "unc2s": 3.4e-05
+          },
+          "206Pb/204Pb": {
+            "value": 18.342,
+            "unc2s": 0.002
+          },
+          "207Pb/204Pb": {
+            "value": 15.561,
+            "unc2s": 0.003
+          },
+          "208Pb/204Pb": {
+            "value": 38.274,
+            "unc2s": 0.007
+          },
+          "87Sr/86Sr": {
+            "value": 0.703661,
+            "unc2s": 3.2e-05
+          },
+          "Ag": {
+            "value": 0.064,
+            "unc2s": 0
+          },
+          "Al": {
+            "value": 77377.36268480848,
+            "unc2s": 529.2569267086765
+          },
+          "As": {
+            "value": 3,
+            "unc2s": 0.66
+          },
+          "Au": {
+            "value": 0.0061,
+            "unc2s": 0
+          },
+          "B": {
+            "value": 29.98,
+            "unc2s": 0.74
+          },
+          "Ba": {
+            "value": 218.1,
+            "unc2s": 2.7
+          },
+          "Be": {
+            "value": 0.273,
+            "unc2s": 0.028
+          },
+          "Bi": {
+            "value": 0.0312,
+            "unc2s": 0.0064
+          },
+          "Br": {
+            "value": 0.716,
+            "unc2s": 0.081
+          },
+          "Ca": {
+            "value": 70411.83658184283,
+            "unc2s": 586.0506089840756
+          },
+          "Cd": {
+            "value": 0.3,
+            "unc2s": 0
+          },
+          "Ce": {
+            "value": 6.552,
+            "unc2s": 0.087
+          },
+          "Cl": {
+            "value": 290,
+            "unc2s": 12
+          },
+          "Co": {
+            "value": 37.57,
+            "unc2s": 0.67
+          },
+          "Cr": {
+            "value": 26.65,
+            "unc2s": 0.69
+          },
+          "Cs": {
+            "value": 0.8,
+            "unc2s": 0.02
+          },
+          "Cu": {
+            "value": 222.1,
+            "unc2s": 3.6
+          },
+          "Dy": {
+            "value": 3.868,
+            "unc2s": 0.064
+          },
+          "Er": {
+            "value": 2.537,
+            "unc2s": 0.039
+          },
+          "Eu": {
+            "value": 0.836,
+            "unc2s": 0.012
+          },
+          "F": {
+            "value": 90,
+            "unc2s": 7
+          },
+          "Fe": {
+            "value": 99878.71273178155,
+            "unc2s": 839.3169137124498
+          },
+          "Ga": {
+            "value": 16.62,
+            "unc2s": 0.36
+          },
+          "Gd": {
+            "value": 3.123,
+            "unc2s": 0.049
+          },
+          "Ge": {
+            "value": 2,
+            "unc2s": 0
+          },
+          "Hf": {
+            "value": 1.487,
+            "unc2s": 0.033
+          },
+          "Hg": {
+            "value": 0.00478,
+            "unc2s": 0
+          },
+          "Ho": {
+            "value": 0.863,
+            "unc2s": 0.017
+          },
+          "I": {
+            "value": 0.061,
+            "unc2s": 0.014
+          },
+          "In": {
+            "value": 0.07,
+            "unc2s": 0.008
+          },
+          "K": {
+            "value": 3506.5591004250728,
+            "unc2s": 48.978926828854
+          },
+          "La": {
+            "value": 2.281,
+            "unc2s": 0.037
+          },
+          "Li": {
+            "value": 8.08,
+            "unc2s": 0.15
+          },
+          "Lu": {
+            "value": 0.3894,
+            "unc2s": 0.0058
+          },
+          "Mg": {
+            "value": 26714.755359269548,
+            "unc2s": 2110.646585946804
+          },
+          "Mn": {
+            "value": 1649.604030864325,
+            "unc2s": 21.684935616995823
+          },
+          "Mo": {
+            "value": 1.014,
+            "unc2s": 0.065
+          },
+          "Na": {
+            "value": 15237.850778106504,
+            "unc2s": 222.5586773822761
+          },
+          "Nb": {
+            "value": 0.565,
+            "unc2s": 0.034
+          },
+          "Nd": {
+            "value": 6.392,
+            "unc2s": 0.063
+          },
+          "Ni": {
+            "value": 14.77,
+            "unc2s": 0.51
+          },
+          "Os": {
+            "value": 4.3e-06,
+            "unc2s": 0
+          },
+          "P": {
+            "value": 422.8975860244361,
+            "unc2s": 10.037816799341622
+          },
+          "Pb": {
+            "value": 5.25,
+            "unc2s": 0.11
+          },
+          "Pr": {
+            "value": 1.129,
+            "unc2s": 0.024
+          },
+          "Rb": {
+            "value": 6.4,
+            "unc2s": 0.11
+          },
+          "Re": {
+            "value": 0.0004,
+            "unc2s": 0
+          },
+          "S": {
+            "value": 19,
+            "unc2s": 0
+          },
+          "Sb": {
+            "value": 0.261,
+            "unc2s": 0.022
+          },
+          "Sc": {
+            "value": 54.08,
+            "unc2s": 0.76
+          },
+          "Se": {
+            "value": 0.146,
+            "unc2s": 0.018
+          },
+          "Si": {
+            "value": 248395.8690478172,
+            "unc2s": 841.3860825857564
+          },
+          "Sm": {
+            "value": 2.266,
+            "unc2s": 0.023
+          },
+          "Sn": {
+            "value": 0.635,
+            "unc2s": 0.054
+          },
+          "Sr": {
+            "value": 178.2,
+            "unc2s": 1.5
+          },
+          "Ta": {
+            "value": 0.0396,
+            "unc2s": 0.003
+          },
+          "Tb": {
+            "value": 0.5863,
+            "unc2s": 0.0096
+          },
+          "Te": {
+            "value": 0.0035,
+            "unc2s": 0.0014
+          },
+          "Th": {
+            "value": 0.2576,
+            "unc2s": 0.0048
+          },
+          "Ti": {
+            "value": 6994.401677831341,
+            "unc2s": 53.94140111438052
+          },
+          "Tl": {
+            "value": 0.034,
+            "unc2s": 0.0036
+          },
+          "Tm": {
+            "value": 0.393,
+            "unc2s": 0.012
+          },
+          "U": {
+            "value": 0.1528,
+            "unc2s": 0.0028
+          },
+          "V": {
+            "value": 572.4,
+            "unc2s": 8.3
+          },
+          "W": {
+            "value": 0.308,
+            "unc2s": 0.03
+          },
+          "Y": {
+            "value": 23.56,
+            "unc2s": 0.44
+          },
+          "Yb": {
+            "value": 2.529,
+            "unc2s": 0.034
+          },
+          "Zn": {
+            "value": 110.4,
+            "unc2s": 2.6
+          },
+          "Zr": {
+            "value": 48.25,
+            "unc2s": 0.88
+          }
+        }
+      }
+    }
+  },
+  "Carbonate": {
+    "MACS-1": {
+      "name": "USGS MACS-1 carbonate",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "MACS-1",
+        "aliases": [],
+        "matrix": "Carbonate",
+        "source": "GeoReM preferred values (Jochum et al. 2005, Geostand. Geoanal. Res. 29), as of 2018",
+        "confirmed": false,
+        "values": {
+          "87Sr/86Sr": {
+            "value": 0.707948,
+            "unc2s": 7e-06
+          },
+          "Ag": {
+            "value": 4.4,
+            "unc2s": 0
+          },
+          "Al": {
+            "value": 47.875,
+            "unc2s": 38.39169367007846
+          },
+          "As": {
+            "value": 1.7299999999999998,
+            "unc2s": 0.2389560629069704
+          },
+          "B": {
+            "value": 23.9,
+            "unc2s": 2.152739118956524
+          },
+          "Bi": {
+            "value": 0.016,
+            "unc2s": 0.007071067811865477
+          },
+          "Br": {
+            "value": 18.7,
+            "unc2s": 21.2
+          },
+          "Cd": {
+            "value": 105.22222222222223,
+            "unc2s": 12.978614889287858
+          },
+          "Ce": {
+            "value": 116.84615384615384,
+            "unc2s": 7.914608369403102
+          },
+          "Co": {
+            "value": 114.875,
+            "unc2s": 4.85320218294802
+          },
+          "Cr": {
+            "value": 112.75,
+            "unc2s": 3.2841611235921855
+          },
+          "Cs": {
+            "value": 0.0115,
+            "unc2s": 0.002121320343559642
+          },
+          "Cu": {
+            "value": 110.54545454545455,
+            "unc2s": 14.753736044566043
+          },
+          "Dy": {
+            "value": 126.4,
+            "unc2s": 10.926013810067136
+          },
+          "Er": {
+            "value": 122.9,
+            "unc2s": 9.904544411531507
+          },
+          "Eu": {
+            "value": 0.004616666666666667,
+            "unc2s": 0.0004119061381755152
+          },
+          "Fe": {
+            "value": 136.33333333333334,
+            "unc2s": 16.954841982945954
+          },
+          "Ga": {
+            "value": 1.7999999999999998,
+            "unc2s": 0.45825756949558394
+          },
+          "Gd": {
+            "value": 121.2,
+            "unc2s": 11.292081788187291
+          },
+          "Ge": {
+            "value": 0.6,
+            "unc2s": 0.17320508075688767
+          },
+          "Hf": {
+            "value": 0.013166666666666667,
+            "unc2s": 0.0043550736694878845
+          },
+          "Ho": {
+            "value": 0.005428571428571429,
+            "unc2s": 0.0014430457208213993
+          },
+          "In": {
+            "value": 0.3466666666666667,
+            "unc2s": 0.015275252316519449
+          },
+          "K": {
+            "value": 2432.6666666666665,
+            "unc2s": 30.02221399786054
+          },
+          "La": {
+            "value": 132.53333333333333,
+            "unc2s": 12.1764800606196
+          },
+          "Li": {
+            "value": 0.18533333333333335,
+            "unc2s": 0.18594981401801222
+          },
+          "Lu": {
+            "value": 0.0025000000000000005,
+            "unc2s": 0.00046598589800857406
+          },
+          "Mg": {
+            "value": 10.677777777777777,
+            "unc2s": 0.892717449389472
+          },
+          "Mn": {
+            "value": 119.53846153846153,
+            "unc2s": 4.4835883065424404
+          },
+          "Na": {
+            "value": 66.25,
+            "unc2s": 42.497117549311504
+          },
+          "Nb": {
+            "value": 0.0016,
+            "unc2s": 0.0003559026084010438
+          },
+          "Nd": {
+            "value": 129.46153846153845,
+            "unc2s": 10.104581342270649
+          },
+          "Ni": {
+            "value": 112.57142857142857,
+            "unc2s": 5.968169536721257
+          },
+          "P": {
+            "value": 5.119999999999999,
+            "unc2s": 4.750473660594278
+          },
+          "Pb": {
+            "value": 118.46666666666667,
+            "unc2s": 8.667399236438202
+          },
+          "Pr": {
+            "value": 0.005999999999999999,
+            "unc2s": 0.00016035674514745481
+          },
+          "Rb": {
+            "value": 0.07971428571428572,
+            "unc2s": 0.018135731634118375
+          },
+          "Sb": {
+            "value": 0.05766666666666667,
+            "unc2s": 0.03995414037785487
+          },
+          "Se": {
+            "value": 9.466666666666667,
+            "unc2s": 2.7024680078279064
+          },
+          "Si": {
+            "value": 86.35,
+            "unc2s": 62.74915670084074
+          },
+          "Sm": {
+            "value": 123.7,
+            "unc2s": 9.298147963737486
+          },
+          "Sn": {
+            "value": 96.4,
+            "unc2s": 4.159326868617084
+          },
+          "Sr": {
+            "value": 217.0625,
+            "unc2s": 9.454936981986359
+          },
+          "Ta": {
+            "value": 0.007825,
+            "unc2s": 0.014118634258784854
+          },
+          "Tb": {
+            "value": 0.02825,
+            "unc2s": 0.011119480974526516
+          },
+          "Th": {
+            "value": 0.011624999999999998,
+            "unc2s": 0.001597989808656935
+          },
+          "Ti": {
+            "value": 0.37666666666666665,
+            "unc2s": 0.5398225016923001
+          },
+          "Tl": {
+            "value": 0.017,
+            "unc2s": 0.0028284271247461905
+          },
+          "Tm": {
+            "value": 0.0042499999999999994,
+            "unc2s": 0.0005089204259999789
+          },
+          "U": {
+            "value": 0.0038699999999999997,
+            "unc2s": 0.0013021776632497837
+          },
+          "V": {
+            "value": 0.009479999999999999,
+            "unc2s": 0.007321680135050971
+          },
+          "W": {
+            "value": 0.015,
+            "unc2s": 0.005
+          },
+          "Y": {
+            "value": 0.055625,
+            "unc2s": 0.004501983689759119
+          },
+          "Yb": {
+            "value": 124,
+            "unc2s": 11.709445380166864
+          },
+          "Zn": {
+            "value": 114.27272727272727,
+            "unc2s": 13.23700048418001
+          },
+          "Zr": {
+            "value": 0.01842857142857143,
+            "unc2s": 0.0017182493859684493
+          }
+        }
+      }
+    },
+    "MACS-3": {
+      "name": "USGS MACS-3 carbonate",
+      "age": "",
+      "age_2s": "",
+      "source": "",
+      "aliases": [],
+      "laser": {
+        "name": "MACS-3",
+        "aliases": [],
+        "matrix": "Carbonate",
+        "source": "GeoReM preferred values (Jochum et al. 2005, Geostand. Geoanal. Res. 29), as of 2018",
+        "confirmed": false,
+        "values": {
+          "Ag": {
+            "value": 54.5,
+            "unc2s": 1.6
+          },
+          "Al": {
+            "value": 396,
+            "unc2s": 31
+          },
+          "As": {
+            "value": 46.6,
+            "unc2s": 3.3
+          },
+          "Au": {
+            "value": 7.21,
+            "unc2s": 0.13
+          },
+          "B": {
+            "value": 8.2,
+            "unc2s": 1.1
+          },
+          "Ba": {
+            "value": 59.6,
+            "unc2s": 1.4
+          },
+          "Be": {
+            "value": 57.4,
+            "unc2s": 1.3
+          },
+          "Bi": {
+            "value": 20.6,
+            "unc2s": 1
+          },
+          "Br": {
+            "value": 0.44,
+            "unc2s": 0
+          },
+          "Ca": {
+            "value": 376900,
+            "unc2s": 0
+          },
+          "Cd": {
+            "value": 53.9,
+            "unc2s": 1.4
+          },
+          "Ce": {
+            "value": 10.9,
+            "unc2s": 0.3
+          },
+          "Cl": {
+            "value": 61,
+            "unc2s": 0
+          },
+          "Co": {
+            "value": 55.3,
+            "unc2s": 1.9
+          },
+          "Cr": {
+            "value": 114,
+            "unc2s": 4
+          },
+          "Cs": {
+            "value": 0.013,
+            "unc2s": 0
+          },
+          "Cu": {
+            "value": 116,
+            "unc2s": 4
+          },
+          "Dy": {
+            "value": 9.9,
+            "unc2s": 0.8
+          },
+          "Er": {
+            "value": 10.3,
+            "unc2s": 0.8
+          },
+          "Eu": {
+            "value": 11.1,
+            "unc2s": 0.5
+          },
+          "Fe": {
+            "value": 10500,
+            "unc2s": 600
+          },
+          "Ga": {
+            "value": 15.6,
+            "unc2s": 0.8
+          },
+          "Gd": {
+            "value": 9.72,
+            "unc2s": 0.84
+          },
+          "Ge": {
+            "value": 55.7,
+            "unc2s": 1.7
+          },
+          "Hf": {
+            "value": 4.57,
+            "unc2s": 0.11
+          },
+          "Hg": {
+            "value": 10.2,
+            "unc2s": 0
+          },
+          "Ho": {
+            "value": 10.3,
+            "unc2s": 0.8
+          },
+          "In": {
+            "value": 0.2,
+            "unc2s": 0
+          },
+          "K": {
+            "value": 1.1,
+            "unc2s": 0
+          },
+          "La": {
+            "value": 10.6,
+            "unc2s": 0.2
+          },
+          "Li": {
+            "value": 62.9,
+            "unc2s": 2.1
+          },
+          "Lu": {
+            "value": 10,
+            "unc2s": 0.7
+          },
+          "Mg": {
+            "value": 1720,
+            "unc2s": 100
+          },
+          "Mn": {
+            "value": 512,
+            "unc2s": 25
+          },
+          "Na": {
+            "value": 5850,
+            "unc2s": 470
+          },
+          "Nb": {
+            "value": 42.9,
+            "unc2s": 0
+          },
+          "Nd": {
+            "value": 10.6,
+            "unc2s": 0.4
+          },
+          "Ni": {
+            "value": 56.2,
+            "unc2s": 1.2
+          },
+          "P": {
+            "value": 103,
+            "unc2s": 8
+          },
+          "Pb": {
+            "value": 59.7,
+            "unc2s": 3.2
+          },
+          "Pd": {
+            "value": 3.4,
+            "unc2s": 0
+          },
+          "Pr": {
+            "value": 11.5,
+            "unc2s": 0.5
+          },
+          "Pt": {
+            "value": 17.8,
+            "unc2s": 0
+          },
+          "Rb": {
+            "value": 0.04,
+            "unc2s": 0
+          },
+          "Ru": {
+            "value": 20.1,
+            "unc2s": 0
+          },
+          "Sb": {
+            "value": 20.3,
+            "unc2s": 0.4
+          },
+          "Sc": {
+            "value": 20.3,
+            "unc2s": 1
+          },
+          "Si": {
+            "value": 400,
+            "unc2s": 0
+          },
+          "Sm": {
+            "value": 10.3,
+            "unc2s": 0.7
+          },
+          "Sn": {
+            "value": 54.4,
+            "unc2s": 5.2
+          },
+          "Sr": {
+            "value": 6640,
+            "unc2s": 170
+          },
+          "Ta": {
+            "value": 20.1,
+            "unc2s": 0.6
+          },
+          "Tb": {
+            "value": 9.49,
+            "unc2s": 0.6
+          },
+          "Th": {
+            "value": 51.9,
+            "unc2s": 3.9
+          },
+          "Ti": {
+            "value": 53.1,
+            "unc2s": 4.7
+          },
+          "Tl": {
+            "value": 15.3,
+            "unc2s": 1.5
+          },
+          "Tm": {
+            "value": 10.4,
+            "unc2s": 0.7
+          },
+          "U": {
+            "value": 1.41,
+            "unc2s": 0.09
+          },
+          "V": {
+            "value": 44.8,
+            "unc2s": 1.2
+          },
+          "W": {
+            "value": 2.15,
+            "unc2s": 0.01
+          },
+          "Y": {
+            "value": 20.7,
+            "unc2s": 1.5
+          },
+          "Yb": {
+            "value": 10.2,
+            "unc2s": 0.7
+          },
+          "Zn": {
+            "value": 124,
+            "unc2s": 21
+          },
+          "Zr": {
+            "value": 8.5,
+            "unc2s": 0.2
+          }
+        }
+      }
+    }
+  },
+  "Rutile": {
+    "PCA-S207": {
+      "name": "PCA-S207 rutile, Snowbird Tectonic Zone",
+      "age": 1865.0,
+      "age_2s": 7.5,
+      "source": "Bracciali et al. (2013) Chem. Geol. 347",
+      "aliases": [],
+      "laser": {
+        "name": "PCA-S207",
+        "aliases": [],
+        "matrix": "Rutile",
+        "source": "Bracciali et al. (2013) Chem. Geol. 347: best age 1865.0 ± 7.5 Ma (207Pb/206Pb ID-TIMS); common-Pb-corrected averages 206/238 0.3303 ± 1.8 %, 207/206 0.1141 ± 0.5 % (2 RSD).",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.3303,
+            "unc2s": 0.0059
+          },
+          "207Pb/206Pb": {
+            "value": 0.1141,
+            "unc2s": 0.00057
+          }
+        }
+      }
+    },
+    "R10": {
+      "name": "R10 rutile, Gjerstad",
+      "age": 1091,
+      "age_2s": 4,
+      "source": "Luvizotto et al. (2009) Chem. Geol. 261",
+      "aliases": [],
+      "laser": {
+        "name": "R10",
+        "aliases": [],
+        "matrix": "Rutile",
+        "source": "Luvizotto et al. (2009) Chem. Geol. 261: ID-TIMS average of R10 fragments, 207/235 1.9286, 206/238 0.18452, 207/206 0.075804; ages 1091.0, 1091.6 and 1089.9 Ma. Fragments differ (Bracciali et al. 2013).",
+        "confirmed": false,
+        "values": {
+          "176Hf/177Hf": {
+            "value": 0.28218125000000005,
+            "unc2s": 1.320037878243959e-05
+          },
+          "206Pb/204Pb": {
+            "value": 1577.1461538461538,
+            "unc2s": 1390.5255718704495
+          },
+          "208Pb/206Pb": {
+            "value": 0.003230769230769231,
+            "unc2s": 0.002712742958515303
+          },
+          "Al": {
+            "value": 29.75,
+            "unc2s": 4.030508652763323
+          },
+          "Cr": {
+            "value": 653.05,
+            "unc2s": 71.01945742775945
+          },
+          "Cu": {
+            "value": 15.5,
+            "unc2s": 0.1
+          },
+          "Fe": {
+            "value": 4176.1,
+            "unc2s": 115.73766312945263
+          },
+          "Hf": {
+            "value": 39.53333333333333,
+            "unc2s": 4.5782754461266375
+          },
+          "Lu": {
+            "value": 0.03043333333333333,
+            "unc2s": 0.02065340972656412
+          },
+          "Mo": {
+            "value": 10.133333333333333,
+            "unc2s": 1.0066445913694333
+          },
+          "Nb": {
+            "value": 2790.6923076923076,
+            "unc2s": 226.09193727898415
+          },
+          "Pb": {
+            "value": 6.1698,
+            "unc2s": 13.211459143486008
+          },
+          "Pb(com)": {
+            "value": 15.399999999999999,
+            "unc2s": 11.00189377637626
+          },
+          "Pb(rad)": {
+            "value": 4.792307692307693,
+            "unc2s": 0.9613025351587106
+          },
+          "Sb": {
+            "value": 3.0360000000000005,
+            "unc2s": 1.6800833312666372
+          },
+          "Sn": {
+            "value": 45.26666666666667,
+            "unc2s": 21.70076803556347
+          },
+          "Ta": {
+            "value": 491.82,
+            "unc2s": 30.693676511258445
+          },
+          "Th": {
+            "value": 0.032375,
+            "unc2s": 0.04382422275408886
+          },
+          "U": {
+            "value": 32.74736842105263,
+            "unc2s": 9.294823435120136
+          },
+          "V": {
+            "value": 1257.9714285714285,
+            "unc2s": 246.53695946237428
+          },
+          "W": {
+            "value": 98.0125,
+            "unc2s": 25.59639692836251
+          },
+          "Yb": {
+            "value": 0.04,
+            "unc2s": 0
+          },
+          "Zr": {
+            "value": 803.8583333333332,
+            "unc2s": 48.046595912591755
+          },
+          "206Pb/238U": {
+            "value": 0.18452,
+            "unc2s": 0.00065
+          },
+          "207Pb/235U": {
+            "value": 1.9286,
+            "unc2s": 0.0105
+          },
+          "207Pb/206Pb": {
+            "value": 0.075804,
+            "unc2s": 0.000187
+          }
+        }
+      }
+    },
+    "Sugluk-4": {
+      "name": "Sugluk-4 rutile, Cape Smith Belt",
+      "age": 1719.0,
+      "age_2s": 14.0,
+      "source": "Bracciali et al. (2013) Chem. Geol. 347",
+      "aliases": [],
+      "laser": {
+        "name": "Sugluk-4",
+        "aliases": [],
+        "matrix": "Rutile",
+        "source": "Bracciali et al. (2013) Chem. Geol. 347: best age 1719 ± 14 Ma; normalisation values (radiogenic + common Pb) 206/238 0.3060 ± 2 %, 207/206 0.1070 ± 1.4 % (2 RSD).",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.306,
+            "unc2s": 0.0061
+          },
+          "207Pb/206Pb": {
+            "value": 0.107,
+            "unc2s": 0.0015
+          }
+        }
+      }
+    }
+  },
+  "Titanite": {
+    "Khan": {
+      "name": "Khan titanite, Namibia",
+      "age": 522.2,
+      "age_2s": 2.2,
+      "source": "Heaman (2009) Chem. Geol. 261: upper intercept 522.2 ± 2.2 Ma (9 analyses)",
+      "aliases": [
+        "KN"
+      ]
+    },
+    "MKED1": {
+      "name": "MKED1 titanite",
+      "age": 1521.02,
+      "age_2s": 0.55,
+      "source": "Spandler et al. (2016) Chem. Geol. 425",
+      "aliases": [],
+      "laser": {
+        "name": "MKED1",
+        "aliases": [],
+        "matrix": "Titanite",
+        "source": "Spandler et al. (2016) Chem. Geol. 425, Table 3: radiogenic weighted means 207/206 0.09465 ± 0.0190 %, 207/235 3.4632 ± 0.0403 %, 206/238 0.26538 ± 0.0244 % (2σ); ages 1521.02 ± 0.55 (207/206), 1518.87 ± 0.31 (207/235), 1517.32 ± 0.32 Ma (206/238).",
+        "confirmed": false,
+        "values": {
+          "206Pb/238U": {
+            "value": 0.26538,
+            "unc2s": 6.5e-05
+          },
+          "207Pb/206Pb": {
+            "value": 0.09465,
+            "unc2s": 1.8e-05
+          },
+          "207Pb/235U": {
+            "value": 3.4632,
+            "unc2s": 0.0014
+          },
+          "U": {
+            "value": 131,
+            "unc2s": 7
+          }
+        }
+      }
+    },
+    "OLT1": {
+      "name": "OLT1 titanite, Grenville skarn",
+      "age": 1014.8,
+      "age_2s": 2.0,
+      "source": "Kennedy et al. (2010) Can. Mineral. 48",
+      "aliases": [
+        "OLT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+[package]
+name = "chemchron-laser-core"
+version = "1.2.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+authors = ["Dominik Sorger"]
+description = "Calculation core of the ChemChron LA-ICP-MS part. No user-interface dependency, usable from scripts."
+
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+name = "chemchron-laser-cli"
+path = "src/bin/cli.rs"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+rust_xlsxwriter = "0.102"
+hdf5-reader = "0.12"

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=ChemChron
+Comment=LA-ICP-MS, EPMA and combined geochronology
+Exec=chemchron
+Icon=chemchron
+Terminal=false
+Categories=Science;Education;

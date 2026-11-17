@@ -1,0 +1,10 @@
+/target
+*.app
+.DS_Store
+/dist
+*.dmg
+*.AppImage
+/ChemChron-Windows
+/ChemChron.iconset
+/screenshots
+/testdata/laser/
