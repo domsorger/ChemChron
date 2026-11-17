@@ -156,8 +156,8 @@ version tag (e.g. `v1.2.0`) is pushed.
 
 If you use ChemChron in your work, please cite it as:
 
-Sorger, D. (2026). ChemChron (Version v1.2.0) [Computer software]. Zenodo.
-https://doi.org/10.5281/zenodo.24317051
+Sorger, D. (2026). ChemChron [Computer software]. Zenodo.
+https://doi.org/10.5281/zenodo.24317050
 
 A paper describing ChemChron is in preparation.
 
